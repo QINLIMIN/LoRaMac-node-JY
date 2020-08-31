@@ -1,0 +1,391 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMac.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/Region.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.obj"
+		},
+		{
+			"path" : "src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/mac/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Og -g -DDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "\"REGION_US915\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "LORAMAC_CLASSB_ENABLED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REGION_AS923_DEFAULT_CHANNEL_PLAN=CHANNEL_PLAN_GROUP_AS923_1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"id" : "mac::@b71de4dc60f86771f8aa",
+	"name" : "mac",
+	"paths" : 
+	{
+		"build" : "src/mac",
+		"source" : "src/mac"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacAdr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacClassB.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacCommands.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacConfirmQueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacCrypto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacParser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/LoRaMacSerializer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/Region.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionAS923.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionAU915.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionCN470.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionCN779.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionCommon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionEU433.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionEU868.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionIN865.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionKR920.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionRU864.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mac/region/RegionUS915.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

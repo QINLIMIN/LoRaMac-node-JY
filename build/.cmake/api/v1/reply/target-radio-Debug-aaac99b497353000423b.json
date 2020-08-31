@@ -1,0 +1,148 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/radio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Og -g -DDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "radio::@26d2dcfc059b4acd1cf9",
+	"name" : "radio",
+	"paths" : 
+	{
+		"build" : "src/radio",
+		"source" : "src/radio"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/radio/sx1276/sx1276.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

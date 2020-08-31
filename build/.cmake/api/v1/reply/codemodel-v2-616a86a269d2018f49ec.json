@@ -1,0 +1,324 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src"
+				},
+				{
+					"build" : "src/boards/GC7818-F072",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/boards/GC7818-F072",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/boards",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/boards"
+				},
+				{
+					"build" : "src/radio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/radio",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/system",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "src/system",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/mac",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "src/mac",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/peripherals",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "src/peripherals",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/apps/ping-pong",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "src/apps/ping-pong",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "loramac-node"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lora-mac",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "GC7818-F072",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "board",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "radio",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "system",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mac",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "peripherals",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "ping-pong",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "GC7818-F072::@815196990424b72381c5",
+					"jsonFile" : "target-GC7818-F072-Debug-d18222f2b1b61b27512f.json",
+					"name" : "GC7818-F072",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mac::@b71de4dc60f86771f8aa",
+					"jsonFile" : "target-mac-Debug-7cf20bf93b2ed4069539.json",
+					"name" : "mac",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "peripherals::@ee2d624c87d677ab9684",
+					"jsonFile" : "target-peripherals-Debug-37da8c2f6b895d2d5534.json",
+					"name" : "peripherals",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ping-pong::@fe9f01a4628cccf37d86",
+					"jsonFile" : "target-ping-pong-Debug-54c76887df50172b88c9.json",
+					"name" : "ping-pong",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ping-pong.bin::@fe9f01a4628cccf37d86",
+					"jsonFile" : "target-ping-pong.bin-Debug-650a7e8a6b77e8b04947.json",
+					"name" : "ping-pong.bin",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ping-pong.hex::@fe9f01a4628cccf37d86",
+					"jsonFile" : "target-ping-pong.hex-Debug-75a5d92f1302a91c5298.json",
+					"name" : "ping-pong.hex",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "radio::@26d2dcfc059b4acd1cf9",
+					"jsonFile" : "target-radio-Debug-aaac99b497353000423b.json",
+					"name" : "radio",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "system::@5ecf6b6503b51008465a",
+					"jsonFile" : "target-system-Debug-a652519012358f6a234f.json",
+					"name" : "system",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build",
+		"source" : "/Users/jimmy/Documents/GitHub/LoRaMac-node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

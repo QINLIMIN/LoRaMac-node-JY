@@ -1,0 +1,643 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj"
+		},
+		{
+			"path" : "src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/boards/GC7818-F072/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Og -g -DDEBUG"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F072xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SX1276MB1LAS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "USE_DEBUGGER"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -x assembler-with-cpp  -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "STM32F072xx"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SX1276MB1LAS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "USE_DEBUGGER"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"id" : "GC7818-F072::@815196990424b72381c5",
+	"name" : "GC7818-F072",
+	"paths" : 
+	{
+		"build" : "src/boards/GC7818-F072",
+		"source" : "src/boards/GC7818-F072"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/adc-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/delay-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/gpio-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/i2c-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/lpm-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/rtc-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/spi-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/uart-board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/sysIrqHandlers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/utilities.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/boards/GC7818-F072/cmsis/arm-gcc/startup_stm32f0xx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/cmsis/system_stm32f0xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/boards/GC7818-F072/sx1276mb1las-board.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,255 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/system/CMakeFiles/system.dir/adc.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/delay.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/eeprom.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/fifo.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/gpio.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/gps.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/i2c.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/nvmm.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/systime.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/timer.c.obj"
+		},
+		{
+			"path" : "src/system/CMakeFiles/system.dir/uart.c.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/system/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Og -g -DDEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"id" : "system::@5ecf6b6503b51008465a",
+	"name" : "system",
+	"paths" : 
+	{
+		"build" : "src/system",
+		"source" : "src/system"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/delay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/eeprom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/fifo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/gps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/nvmm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/systime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/system/uart.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}
