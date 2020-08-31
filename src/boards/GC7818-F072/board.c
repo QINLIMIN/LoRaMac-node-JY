@@ -203,12 +203,6 @@ void BoardInitMcu( void )
             CalibrateSystemWakeupTime( );
         }
     }
-
-    // Jimmy begin
-    uint8_t buf[] = "Jimmy";
-    uint16_t count = 5;
-    UartPutBuffer( &Uart1, ( uint8_t* )buf, ( uint16_t )count );
-    // Jimmy end
 }
 
 void BoardResetMcu( void )

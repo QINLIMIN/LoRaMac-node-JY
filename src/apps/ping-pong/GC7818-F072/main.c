@@ -77,11 +77,11 @@
 
 #if defined( USE_MODEM_LORA )
 
-#define LORA_BANDWIDTH                              0         // [0: 125 kHz,
+#define LORA_BANDWIDTH                              1         // [0: 125 kHz,
                                                               //  1: 250 kHz,
                                                               //  2: 500 kHz,
                                                               //  3: Reserved]
-#define LORA_SPREADING_FACTOR                       12         // [SF7..SF12]
+#define LORA_SPREADING_FACTOR                       10         // [SF7..SF12]
 #define LORA_CODINGRATE                             1         // [1: 4/5,
                                                               //  2: 4/6,
                                                               //  3: 4/7,
@@ -132,8 +132,15 @@ typedef enum
     TX_TIMEOUT,
 }States_t;
 
-#define RX_TIMEOUT_VALUE                            10000 // 1000
-#define BUFFER_SIZE                                 64 // Define the payload size here
+#if(LORA_SPREADING_FACTOR<=10)
+    #define RX_TIMEOUT_VALUE                            5000 
+    #define MAX_RNADOM                                  5
+#else
+    #define RX_TIMEOUT_VALUE                            10000 
+    #define MAX_RNADOM                                  10
+#endif
+
+#define BUFFER_SIZE                                 20 // Define the payload size here
 
 const uint8_t PingMsg[] = "PINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPING";
 const uint8_t PongMsg[] = "PONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONG";
@@ -157,9 +164,6 @@ static RadioEvents_t RadioEvents;
 extern Gpio_t Led1;
 extern Gpio_t Led2;
 extern Gpio_t LedOnBoard;
-
-time_t t;
-int time();
 
 /*!
  * \brief Function to be executed on Radio Tx Done event
@@ -243,7 +247,7 @@ int main( void )
 
     // 初始化随机数
     srand1( BoardGetRandomSeed( ) );
-    Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+    Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
 
     printf("Ping-Pong Ready GO!/r/n");
     print("Ping-Pong Ready GO!");
@@ -271,22 +275,6 @@ int main( void )
 
                         // Send the next PING frame
                         memcpy( Buffer, PingMsg, BUFFER_SIZE );
-                        // Buffer[0] = 'P';Buffer[1] = 'I';Buffer[2] = 'N';Buffer[3] = 'G';
-                        // Buffer[4] = 'P';Buffer[5] = 'I';Buffer[6] = 'N';Buffer[7] = 'G';
-                        // Buffer[8] = 'P';Buffer[9] = 'I';Buffer[10] = 'N';Buffer[11] = 'G';
-                        // Buffer[12] = 'P';Buffer[13] = 'I';Buffer[14] = 'N';Buffer[15] = 'G';
-                        // Buffer[16] = 'P';Buffer[17] = 'I';Buffer[18] = 'N';Buffer[19] = 'G';
-                        // Buffer[20] = 'P';Buffer[21] = 'I';Buffer[22] = 'N';Buffer[23] = 'G';
-                        // Buffer[24] = 'P';Buffer[25] = 'I';Buffer[26] = 'N';Buffer[27] = 'G';
-                        // Buffer[28] = 'P';Buffer[29] = 'I';Buffer[30] = 'N';Buffer[31] = 'G';
-                        // Buffer[32] = 'P';Buffer[33] = 'I';Buffer[34] = 'N';Buffer[35] = 'G';
-                        // Buffer[36] = 'P';Buffer[37] = 'I';Buffer[38] = 'N';Buffer[39] = 'G';
-
-                        // We fill the buffer with numbers for the payload
-                        // for( i = 40; i < BufferSize; i++ )
-                        // {
-                        //     Buffer[i] = i - 40;
-                        // }
                         DelayMs( 1 );
                         Radio.Send( Buffer, BufferSize );
                         GpioWrite(&Led1, 1);
@@ -297,13 +285,13 @@ int main( void )
                         GpioToggle( &Led2 ); // Set LED off
                         print(Buffer);
                         // 随机产生超时时间
-                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
                     }
                     else // valid reception but neither a PING or a PONG message
                     {    // Set device as master ans start again
                         isMaster = true;
                         // 随机产生超时时间
-                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
                     }
                 }
             }
@@ -319,22 +307,6 @@ int main( void )
 
                         // Send the reply to the PONG string
                         memcpy( Buffer, PongMsg, BUFFER_SIZE );
-                        // Buffer[0] = 'P';Buffer[1] = 'O';Buffer[2] = 'N';Buffer[3] = 'G';
-                        // Buffer[4] = 'P';Buffer[5] = 'O';Buffer[6] = 'N';Buffer[7] = 'G';
-                        // Buffer[8] = 'P';Buffer[9] = 'O';Buffer[10] = 'N';Buffer[11] = 'G';
-                        // Buffer[12] = 'P';Buffer[13] = 'O';Buffer[14] = 'N';Buffer[15] = 'G';
-                        // Buffer[16] = 'P';Buffer[17] = 'O';Buffer[18] = 'N';Buffer[19] = 'G';
-                        // Buffer[20] = 'P';Buffer[21] = 'O';Buffer[22] = 'N';Buffer[23] = 'G';
-                        // Buffer[24] = 'P';Buffer[25] = 'O';Buffer[26] = 'N';Buffer[27] = 'G';
-                        // Buffer[28] = 'P';Buffer[29] = 'O';Buffer[30] = 'N';Buffer[31] = 'G';
-                        // Buffer[32] = 'P';Buffer[33] = 'O';Buffer[34] = 'N';Buffer[35] = 'G';
-                        // Buffer[36] = 'P';Buffer[37] = 'O';Buffer[38] = 'N';Buffer[39] = 'G';
-
-                        // We fill the buffer with numbers for the payload
-                        // for( i = 40; i < BufferSize; i++ )
-                        // {
-                        //     Buffer[i] = i - 40;
-                        // }
                         DelayMs( 1 );
                         Radio.Send( Buffer, BufferSize );
                         GpioWrite(&Led1, 1);
@@ -343,7 +315,7 @@ int main( void )
                     {    // Set device as master and start again
                         isMaster = true;
                         // 随机产生超时时间
-                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+                        Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
                     }
                 }
             }
@@ -355,7 +327,7 @@ int main( void )
             //GpioToggle( &Led2 );
             GpioWrite(&Led1, 0);
             // 随机产生超时时间
-            Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+            Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
             State = LOWPOWER;
             break;
         case RX_TIMEOUT:
@@ -365,20 +337,6 @@ int main( void )
             {
                 // Send the next PING frame
                 memcpy( Buffer, PingMsg, BUFFER_SIZE );
-                // Buffer[0] = 'P';Buffer[1] = 'I';Buffer[2] = 'N';Buffer[3] = 'G';
-                // Buffer[4] = 'P';Buffer[5] = 'I';Buffer[6] = 'N';Buffer[7] = 'G';
-                // Buffer[8] = 'P';Buffer[9] = 'I';Buffer[10] = 'N';Buffer[11] = 'G';
-                // Buffer[12] = 'P';Buffer[13] = 'I';Buffer[14] = 'N';Buffer[15] = 'G';
-                // Buffer[16] = 'P';Buffer[17] = 'I';Buffer[18] = 'N';Buffer[19] = 'G';
-                // Buffer[20] = 'P';Buffer[21] = 'I';Buffer[22] = 'N';Buffer[23] = 'G';
-                // Buffer[24] = 'P';Buffer[25] = 'I';Buffer[26] = 'N';Buffer[27] = 'G';
-                // Buffer[28] = 'P';Buffer[29] = 'I';Buffer[30] = 'N';Buffer[31] = 'G';
-                // Buffer[32] = 'P';Buffer[33] = 'I';Buffer[34] = 'N';Buffer[35] = 'G';
-                // Buffer[36] = 'P';Buffer[37] = 'I';Buffer[38] = 'N';Buffer[39] = 'G';
-                // for( i = 40; i < BufferSize; i++ )
-                // {
-                //     Buffer[i] = i - 40;
-                // }
                 DelayMs( 1 );
                 Radio.Send( Buffer, BufferSize );
                 GpioWrite(&Led1, 1);
@@ -386,14 +344,14 @@ int main( void )
             else
             {
                 // 随机产生超时时间
-                Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+                Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
             }
             State = LOWPOWER;
             break;
         case TX_TIMEOUT:
             GpioWrite(&Led1, 0);
             // 随机产生超时时间
-            Radio.Rx( RX_TIMEOUT_VALUE + randr(0,10)*1000 );
+            Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
             State = LOWPOWER;
             break;
         case LOWPOWER:

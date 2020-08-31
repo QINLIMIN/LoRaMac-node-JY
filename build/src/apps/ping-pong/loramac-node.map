@@ -172,7 +172,6 @@ Archive member included to satisfy reference by file (symbol)
 Allocating common symbols
 Common symbol       size              file
 
-t                   0x8               CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
 __lock___atexit_recursive_mutex
                     0x1               /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
 __lock___arc4random_mutex
@@ -199,7 +198,7 @@ AdcHandle           0x40              ../../boards/GC7818-F072/CMakeFiles/GC7818
 TxTimeoutTimer      0x18              ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
 aADCxConvertedValues
                     0x8               ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj
-Buffer              0x40              CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+Buffer              0x14              CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
 RxTimeoutSyncWord   0x18              ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
 __lock___at_quick_exit_mutex
                     0x1               /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
@@ -2611,7 +2610,7 @@ END GROUP
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
 
-.text           0x0000000008000000     0x7994
+.text           0x0000000008000000     0x7970
  *(.isr_vector)
  .isr_vector    0x0000000008000000       0xc4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
                 0x0000000008000000                g_pfnVectors
@@ -2633,823 +2632,823 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
                 0x000000000800016c       0x48 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
                 0x000000000800016c                OnRxDone
  .text.startup.main
-                0x00000000080001b4      0x290 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                0x00000000080001b4      0x28c CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
                 0x00000000080001b4                main
- .text.DelayMs  0x0000000008000444        0x8 ../../system/CMakeFiles/system.dir/delay.c.obj
-                0x0000000008000444                DelayMs
+ .text.DelayMs  0x0000000008000440        0x8 ../../system/CMakeFiles/system.dir/delay.c.obj
+                0x0000000008000440                DelayMs
  .text.FifoInit
-                0x000000000800044c        0xa ../../system/CMakeFiles/system.dir/fifo.c.obj
-                0x000000000800044c                FifoInit
+                0x0000000008000448        0xa ../../system/CMakeFiles/system.dir/fifo.c.obj
+                0x0000000008000448                FifoInit
  .text.FifoPush
-                0x0000000008000456       0x18 ../../system/CMakeFiles/system.dir/fifo.c.obj
-                0x0000000008000456                FifoPush
- .text.FifoPop  0x000000000800046e       0x16 ../../system/CMakeFiles/system.dir/fifo.c.obj
-                0x000000000800046e                FifoPop
+                0x0000000008000452       0x18 ../../system/CMakeFiles/system.dir/fifo.c.obj
+                0x0000000008000452                FifoPush
+ .text.FifoPop  0x000000000800046a       0x16 ../../system/CMakeFiles/system.dir/fifo.c.obj
+                0x000000000800046a                FifoPop
  .text.IsFifoEmpty
-                0x0000000008000484        0xe ../../system/CMakeFiles/system.dir/fifo.c.obj
-                0x0000000008000484                IsFifoEmpty
+                0x0000000008000480        0xe ../../system/CMakeFiles/system.dir/fifo.c.obj
+                0x0000000008000480                IsFifoEmpty
  .text.IsFifoFull
-                0x0000000008000492       0x1c ../../system/CMakeFiles/system.dir/fifo.c.obj
-                0x0000000008000492                IsFifoFull
+                0x000000000800048e       0x1c ../../system/CMakeFiles/system.dir/fifo.c.obj
+                0x000000000800048e                IsFifoFull
  .text.GpioInit
-                0x00000000080004ae       0x12 ../../system/CMakeFiles/system.dir/gpio.c.obj
-                0x00000000080004ae                GpioInit
+                0x00000000080004aa       0x12 ../../system/CMakeFiles/system.dir/gpio.c.obj
+                0x00000000080004aa                GpioInit
  .text.GpioSetInterrupt
-                0x00000000080004c0        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
-                0x00000000080004c0                GpioSetInterrupt
+                0x00000000080004bc        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
+                0x00000000080004bc                GpioSetInterrupt
  .text.GpioWrite
-                0x00000000080004c8        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
-                0x00000000080004c8                GpioWrite
+                0x00000000080004c4        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
+                0x00000000080004c4                GpioWrite
  .text.GpioToggle
-                0x00000000080004d0        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
-                0x00000000080004d0                GpioToggle
+                0x00000000080004cc        0x8 ../../system/CMakeFiles/system.dir/gpio.c.obj
+                0x00000000080004cc                GpioToggle
  .text.TimerSetTimeout
-                0x00000000080004d8       0x2a ../../system/CMakeFiles/system.dir/timer.c.obj
- *fill*         0x0000000008000502        0x2 
+                0x00000000080004d4       0x2a ../../system/CMakeFiles/system.dir/timer.c.obj
+ *fill*         0x00000000080004fe        0x2 
  .text.TimerInsertNewHeadTimer
-                0x0000000008000504       0x1c ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x0000000008000500       0x1c ../../system/CMakeFiles/system.dir/timer.c.obj
  .text.TimerInit
-                0x0000000008000520       0x10 ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x0000000008000520                TimerInit
+                0x000000000800051c       0x10 ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x000000000800051c                TimerInit
  .text.TimerStart
-                0x0000000008000530       0x74 ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x0000000008000530                TimerStart
+                0x000000000800052c       0x74 ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x000000000800052c                TimerStart
  .text.TimerIrqHandler
-                0x00000000080005a4       0x7c ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x00000000080005a4                TimerIrqHandler
+                0x00000000080005a0       0x7c ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x00000000080005a0                TimerIrqHandler
  .text.TimerStop
-                0x0000000008000620       0x5c ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x0000000008000620                TimerStop
+                0x000000000800061c       0x5c ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x000000000800061c                TimerStop
  .text.TimerSetValue
-                0x000000000800067c       0x22 ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x000000000800067c                TimerSetValue
+                0x0000000008000678       0x22 ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x0000000008000678                TimerSetValue
  .text.TimerGetCurrentTime
-                0x000000000800069e        0xc ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x000000000800069e                TimerGetCurrentTime
+                0x000000000800069a        0xc ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x000000000800069a                TimerGetCurrentTime
  .text.TimerGetElapsedTime
-                0x00000000080006aa       0x1e ../../system/CMakeFiles/system.dir/timer.c.obj
-                0x00000000080006aa                TimerGetElapsedTime
+                0x00000000080006a6       0x1e ../../system/CMakeFiles/system.dir/timer.c.obj
+                0x00000000080006a6                TimerGetElapsedTime
  .text.UartInit
-                0x00000000080006c8       0x12 ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x00000000080006c8                UartInit
+                0x00000000080006c4       0x12 ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x00000000080006c4                UartInit
  .text.UartConfig
-                0x00000000080006da       0x1a ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x00000000080006da                UartConfig
+                0x00000000080006d6       0x1a ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x00000000080006d6                UartConfig
  .text.UartPutChar
-                0x00000000080006f4        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x00000000080006f4                UartPutChar
+                0x00000000080006f0        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x00000000080006f0                UartPutChar
  .text.UartGetChar
-                0x00000000080006fc        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x00000000080006fc                UartGetChar
+                0x00000000080006f8        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x00000000080006f8                UartGetChar
  .text.UartPutBuffer
-                0x0000000008000704        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x0000000008000704                UartPutBuffer
+                0x0000000008000700        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x0000000008000700                UartPutBuffer
  .text.UartGetBuffer
-                0x000000000800070c        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
-                0x000000000800070c                UartGetBuffer
+                0x0000000008000708        0x8 ../../system/CMakeFiles/system.dir/uart.c.obj
+                0x0000000008000708                UartGetBuffer
  .text.GetFskBandwidthRegValue
-                0x0000000008000714       0x2c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000710       0x2c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276OnDio4Irq
-                0x0000000008000740       0x20 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x000000000800073c       0x20 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276GetStatus
-                0x0000000008000760        0xc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000760                SX1276GetStatus
+                0x000000000800075c        0xc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x000000000800075c                SX1276GetStatus
  .text.SX1276GetTimeOnAir
-                0x000000000800076c       0xec ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x000000000800076c                SX1276GetTimeOnAir
+                0x0000000008000768       0xec ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000768                SX1276GetTimeOnAir
  .text.SX1276WriteBuffer
-                0x0000000008000858       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000858                SX1276WriteBuffer
+                0x0000000008000854       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000854                SX1276WriteBuffer
  .text.SX1276Write
-                0x000000000800089c       0x12 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x000000000800089c                SX1276Write
- *fill*         0x00000000080008ae        0x2 
+                0x0000000008000898       0x12 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000898                SX1276Write
+ *fill*         0x00000000080008aa        0x2 
  .text.SX1276SetChannel
-                0x00000000080008b0       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080008b0                SX1276SetChannel
+                0x00000000080008ac       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080008ac                SX1276SetChannel
  .text.SX1276ReadBuffer
-                0x00000000080008f4       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080008f4                SX1276ReadBuffer
+                0x00000000080008f0       0x44 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080008f0                SX1276ReadBuffer
  .text.SX1276Read
-                0x0000000008000938       0x12 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000938                SX1276Read
- *fill*         0x000000000800094a        0x2 
+                0x0000000008000934       0x12 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000934                SX1276Read
+ *fill*         0x0000000008000946        0x2 
  .text.SX1276OnDio3Irq
-                0x000000000800094c       0x58 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000948       0x58 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276OnDio2Irq
-                0x00000000080009a4       0xdc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080009a0       0xdc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.RxChainCalibration
-                0x0000000008000a80       0x9c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000a7c       0x9c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276SetOpMode
-                0x0000000008000b1c       0x38 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000b18       0x38 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276SetSleep
-                0x0000000008000b54       0x3c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000b54                SX1276SetSleep
+                0x0000000008000b50       0x3c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000b50                SX1276SetSleep
  .text.SX1276SetStby
-                0x0000000008000b90       0x34 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000b90                SX1276SetStby
+                0x0000000008000b8c       0x34 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000b8c                SX1276SetStby
  .text.SX1276Send
-                0x0000000008000bc4      0x1b4 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000bc4                SX1276Send
+                0x0000000008000bc0      0x1b4 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000bc0                SX1276Send
  .text.SX1276SetRx
-                0x0000000008000d78      0x244 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000d78                SX1276SetRx
+                0x0000000008000d74      0x244 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000d74                SX1276SetRx
  .text.SX1276StartCad
-                0x0000000008000fbc       0x38 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000fbc                SX1276StartCad
+                0x0000000008000fb8       0x38 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000fb8                SX1276StartCad
  .text.SX1276ReadRssi
-                0x0000000008000ff4       0x48 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008000ff4                SX1276ReadRssi
+                0x0000000008000ff0       0x48 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008000ff0                SX1276ReadRssi
  .text.SX1276SetModem
-                0x000000000800103c       0x70 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x000000000800103c                SX1276SetModem
+                0x0000000008001038       0x70 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001038                SX1276SetModem
  .text.SX1276Init
-                0x00000000080010ac       0x80 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080010ac                SX1276Init
+                0x00000000080010a8       0x80 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080010a8                SX1276Init
  .text.SX1276IsChannelFree
-                0x000000000800112c       0x66 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x000000000800112c                SX1276IsChannelFree
+                0x0000000008001128       0x66 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001128                SX1276IsChannelFree
  .text.SX1276Random
-                0x0000000008001192       0x3c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008001192                SX1276Random
- *fill*         0x00000000080011ce        0x2 
+                0x000000000800118e       0x3c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x000000000800118e                SX1276Random
+ *fill*         0x00000000080011ca        0x2 
  .text.SX1276SetRxConfig
-                0x00000000080011d0      0x320 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080011d0                SX1276SetRxConfig
+                0x00000000080011cc      0x320 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080011cc                SX1276SetRxConfig
  .text.SX1276SetTxConfig
-                0x00000000080014f0      0x280 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080014f0                SX1276SetTxConfig
+                0x00000000080014ec      0x280 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080014ec                SX1276SetTxConfig
  .text.SX1276SetTxContinuousWave
-                0x0000000008001770       0x80 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008001770                SX1276SetTxContinuousWave
+                0x000000000800176c       0x80 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x000000000800176c                SX1276SetTxContinuousWave
  .text.SX1276OnDio1Irq
-                0x00000000080017f0       0xf4 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080017ec       0xf4 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276OnDio0Irq
-                0x00000000080018e4      0x288 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080018e0      0x288 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276SetMaxPayloadLength
-                0x0000000008001b6c       0x34 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008001b6c                SX1276SetMaxPayloadLength
+                0x0000000008001b68       0x34 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001b68                SX1276SetMaxPayloadLength
  .text.SX1276SetPublicNetwork
-                0x0000000008001ba0       0x28 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008001ba0                SX1276SetPublicNetwork
+                0x0000000008001b9c       0x28 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001b9c                SX1276SetPublicNetwork
  .text.SX1276OnTimeoutIrq
-                0x0000000008001bc8       0xc8 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001bc4       0xc8 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .text.SX1276GetWakeupTime
-                0x0000000008001c90        0xa ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008001c90                SX1276GetWakeupTime
- *fill*         0x0000000008001c9a        0x2 
+                0x0000000008001c8c        0xa ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000008001c8c                SX1276GetWakeupTime
+ *fill*         0x0000000008001c96        0x2 
  .text.OnCalibrateSystemWakeupTimeTimerEvent
-                0x0000000008001c9c       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001c98       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
  .text.BoardCriticalSectionBegin
-                0x0000000008001cb0        0xa ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001cb0                BoardCriticalSectionBegin
+                0x0000000008001cac        0xa ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cac                BoardCriticalSectionBegin
  .text.BoardCriticalSectionEnd
-                0x0000000008001cba        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001cba                BoardCriticalSectionEnd
+                0x0000000008001cb6        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cb6                BoardCriticalSectionEnd
  .text.BoardInitPeriph
-                0x0000000008001cc2        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001cc2                BoardInitPeriph
+                0x0000000008001cbe        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cbe                BoardInitPeriph
  .text.BoardGetRandomSeed
-                0x0000000008001cc4       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001cc4                BoardGetRandomSeed
+                0x0000000008001cc0       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cc0                BoardGetRandomSeed
  .text.SysTick_Handler
-                0x0000000008001ce4        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001ce4                SysTick_Handler
+                0x0000000008001ce0        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001ce0                SysTick_Handler
  .text.GetBoardPowerSource
-                0x0000000008001cf0       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001cf0                GetBoardPowerSource
+                0x0000000008001cec       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cec                GetBoardPowerSource
  .text.BoardInitMcu
-                0x0000000008001d00      0x250 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001d00                BoardInitMcu
+                0x0000000008001cfc      0x238 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001cfc                BoardInitMcu
  .text.LpmEnterStopMode
-                0x0000000008001f50        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f50                LpmEnterStopMode
+                0x0000000008001f34        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f34                LpmEnterStopMode
  .text.LpmExitStopMode
-                0x0000000008001f52       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f52                LpmExitStopMode
+                0x0000000008001f36       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f36                LpmExitStopMode
  .text.LpmEnterSleepMode
-                0x0000000008001f66        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f66                LpmEnterSleepMode
+                0x0000000008001f4a        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f4a                LpmEnterSleepMode
  .text.BoardLowPowerHandler
-                0x0000000008001f72        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f72                BoardLowPowerHandler
- *fill*         0x0000000008001f7e        0x2 
- .text._write   0x0000000008001f80       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f80                _write
- .text._read    0x0000000008001f9c       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001f9c                _read
- .text.print    0x0000000008001fd0       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x0000000008001fd0                print
+                0x0000000008001f56        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f56                BoardLowPowerHandler
+ *fill*         0x0000000008001f62        0x2 
+ .text._write   0x0000000008001f64       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f64                _write
+ .text._read    0x0000000008001f80       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001f80                _read
+ .text.print    0x0000000008001fb4       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x0000000008001fb4                print
  .text.DelayMsMcu
-                0x0000000008001fe8        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
-                0x0000000008001fe8                DelayMsMcu
+                0x0000000008001fcc        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+                0x0000000008001fcc                DelayMsMcu
  .text.GpioMcuSetInterrupt
-                0x0000000008001ff0       0xf4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x0000000008001ff0                GpioMcuSetInterrupt
+                0x0000000008001fd4       0xf4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x0000000008001fd4                GpioMcuSetInterrupt
  .text.GpioMcuWrite
-                0x00000000080020e4       0x1a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x00000000080020e4                GpioMcuWrite
- *fill*         0x00000000080020fe        0x2 
+                0x00000000080020c8       0x1a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x00000000080020c8                GpioMcuWrite
+ *fill*         0x00000000080020e2        0x2 
  .text.GpioMcuInit
-                0x0000000008002100      0x10c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x0000000008002100                GpioMcuInit
+                0x00000000080020e4      0x10c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x00000000080020e4                GpioMcuInit
  .text.GpioMcuToggle
-                0x000000000800220c       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x000000000800220c                GpioMcuToggle
+                0x00000000080021f0       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x00000000080021f0                GpioMcuToggle
  .text.EXTI0_1_IRQHandler
-                0x0000000008002224       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x0000000008002224                EXTI0_1_IRQHandler
+                0x0000000008002208       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x0000000008002208                EXTI0_1_IRQHandler
  .text.EXTI2_3_IRQHandler
-                0x0000000008002234       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x0000000008002234                EXTI2_3_IRQHandler
+                0x0000000008002218       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x0000000008002218                EXTI2_3_IRQHandler
  .text.EXTI4_15_IRQHandler
-                0x0000000008002244       0x5c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x0000000008002244                EXTI4_15_IRQHandler
+                0x0000000008002228       0x5c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x0000000008002228                EXTI4_15_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x00000000080022a0       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
-                0x00000000080022a0                HAL_GPIO_EXTI_Callback
+                0x0000000008002284       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+                0x0000000008002284                HAL_GPIO_EXTI_Callback
  .text.LpmSetOffMode
-                0x00000000080022d0       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x00000000080022d0                LpmSetOffMode
+                0x00000000080022b4       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x00000000080022b4                LpmSetOffMode
  .text.LpmSetStopMode
-                0x0000000008002304       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x0000000008002304                LpmSetStopMode
+                0x00000000080022e8       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x00000000080022e8                LpmSetStopMode
  .text.LpmGetMode
-                0x0000000008002338       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x0000000008002338                LpmGetMode
+                0x000000000800231c       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x000000000800231c                LpmGetMode
  .text.LpmExitSleepMode
-                0x0000000008002368        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x0000000008002368                LpmExitSleepMode
+                0x000000000800234c        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x000000000800234c                LpmExitSleepMode
  .text.LpmEnterOffMode
-                0x000000000800236a        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x000000000800236a                LpmEnterOffMode
+                0x000000000800234e        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x000000000800234e                LpmEnterOffMode
  .text.LpmExitOffMode
-                0x000000000800236c        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x000000000800236c                LpmExitOffMode
- *fill*         0x000000000800236e        0x2 
+                0x0000000008002350        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x0000000008002350                LpmExitOffMode
+ *fill*         0x0000000008002352        0x2 
  .text.LpmEnterLowPower
-                0x0000000008002370       0x38 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
-                0x0000000008002370                LpmEnterLowPower
+                0x0000000008002354       0x38 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+                0x0000000008002354                LpmEnterLowPower
  .text.RtcGetCalendarValue
-                0x00000000080023a8       0xb0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x000000000800238c       0xb0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
  .text.RtcSetTimerContext
-                0x0000000008002458       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002458                RtcSetTimerContext
- .text.RtcInit  0x0000000008002470       0x98 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002470                RtcInit
+                0x000000000800243c       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x000000000800243c                RtcSetTimerContext
+ .text.RtcInit  0x0000000008002454       0x98 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002454                RtcInit
  .text.RtcGetTimerContext
-                0x0000000008002508        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002508                RtcGetTimerContext
+                0x00000000080024ec        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x00000000080024ec                RtcGetTimerContext
  .text.RtcGetMinimumTimeout
-                0x0000000008002514        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002514                RtcGetMinimumTimeout
+                0x00000000080024f8        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x00000000080024f8                RtcGetMinimumTimeout
  .text.RtcMs2Tick
-                0x0000000008002518       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002518                RtcMs2Tick
+                0x00000000080024fc       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x00000000080024fc                RtcMs2Tick
  .text.RtcTick2Ms
-                0x0000000008002528       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002528                RtcTick2Ms
- *fill*         0x000000000800253e        0x2 
+                0x000000000800250c       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x000000000800250c                RtcTick2Ms
+ *fill*         0x0000000008002522        0x2 
  .text.RtcStopAlarm
-                0x0000000008002540       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002540                RtcStopAlarm
+                0x0000000008002524       0x30 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002524                RtcStopAlarm
  .text.RtcStartAlarm
-                0x0000000008002570      0x11c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002570                RtcStartAlarm
+                0x0000000008002554      0x11c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002554                RtcStartAlarm
  .text.RtcGetTimerValue
-                0x000000000800268c        0xe ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x000000000800268c                RtcGetTimerValue
- *fill*         0x000000000800269a        0x2 
+                0x0000000008002670        0xe ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002670                RtcGetTimerValue
+ *fill*         0x000000000800267e        0x2 
  .text.RtcGetTimerElapsedTime
-                0x000000000800269c       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x000000000800269c                RtcGetTimerElapsedTime
+                0x0000000008002680       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002680                RtcGetTimerElapsedTime
  .text.RtcSetAlarm
-                0x00000000080026b4       0x48 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x00000000080026b4                RtcSetAlarm
+                0x0000000008002698       0x48 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002698                RtcSetAlarm
  .text.RtcSetMcuWakeUpTime
-                0x00000000080026fc       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x00000000080026fc                RtcSetMcuWakeUpTime
+                0x00000000080026e0       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x00000000080026e0                RtcSetMcuWakeUpTime
  .text.RTC_IRQHandler
-                0x0000000008002774       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
-                0x0000000008002774                RTC_IRQHandler
+                0x0000000008002758       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008002758                RTC_IRQHandler
  .text.SpiFormat
-                0x00000000080027b4       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
-                0x00000000080027b4                SpiFormat
+                0x0000000008002798       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+                0x0000000008002798                SpiFormat
  .text.SpiFrequency
-                0x0000000008002804       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
-                0x0000000008002804                SpiFrequency
- .text.SpiInit  0x0000000008002858      0x170 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
-                0x0000000008002858                SpiInit
+                0x00000000080027e8       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+                0x00000000080027e8                SpiFrequency
+ .text.SpiInit  0x000000000800283c      0x170 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+                0x000000000800283c                SpiInit
  .text.SpiInOut
-                0x00000000080029c8       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
-                0x00000000080029c8                SpiInOut
+                0x00000000080029ac       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+                0x00000000080029ac                SpiInOut
  .text.UartMcuInit
-                0x0000000008002a18       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002a18                UartMcuInit
+                0x00000000080029fc       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x00000000080029fc                UartMcuInit
  .text.UartMcuConfig
-                0x0000000008002a78       0xc0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002a78                UartMcuConfig
+                0x0000000008002a5c       0xc0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002a5c                UartMcuConfig
  .text.UartMcuPutChar
-                0x0000000008002b38       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002b38                UartMcuPutChar
+                0x0000000008002b1c       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002b1c                UartMcuPutChar
  .text.UartMcuGetChar
-                0x0000000008002b8c       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002b8c                UartMcuGetChar
+                0x0000000008002b70       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002b70                UartMcuGetChar
  .text.UartMcuPutBuffer
-                0x0000000008002bc6       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002bc6                UartMcuPutBuffer
+                0x0000000008002baa       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002baa                UartMcuPutBuffer
  .text.UartMcuGetBuffer
-                0x0000000008002c00       0x2e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002c00                UartMcuGetBuffer
- *fill*         0x0000000008002c2e        0x2 
+                0x0000000008002be4       0x2e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002be4                UartMcuGetBuffer
+ *fill*         0x0000000008002c12        0x2 
  .text.HAL_UART_TxCpltCallback
-                0x0000000008002c30       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002c30                HAL_UART_TxCpltCallback
+                0x0000000008002c14       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002c14                HAL_UART_TxCpltCallback
  .text.HAL_UART_RxCpltCallback
-                0x0000000008002c70       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002c70                HAL_UART_RxCpltCallback
+                0x0000000008002c54       0x40 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002c54                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x0000000008002cb0       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002cb0                HAL_UART_ErrorCallback
+                0x0000000008002c94       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002c94                HAL_UART_ErrorCallback
  .text.USART1_IRQHandler
-                0x0000000008002cc8       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
-                0x0000000008002cc8                USART1_IRQHandler
+                0x0000000008002cac       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+                0x0000000008002cac                USART1_IRQHandler
  .text.NMI_Handler
-                0x0000000008002cd8        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
-                0x0000000008002cd8                NMI_Handler
- *fill*         0x0000000008002cda        0x2 
- .text.rand1    0x0000000008002cdc       0x2c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
-                0x0000000008002cdc                rand1
- .text.srand1   0x0000000008002d08        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
-                0x0000000008002d08                srand1
- .text.randr    0x0000000008002d14       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
-                0x0000000008002d14                randr
- .text.memcpy1  0x0000000008002d2a       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
-                0x0000000008002d2a                memcpy1
+                0x0000000008002cbc        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+                0x0000000008002cbc                NMI_Handler
+ *fill*         0x0000000008002cbe        0x2 
+ .text.rand1    0x0000000008002cc0       0x2c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+                0x0000000008002cc0                rand1
+ .text.srand1   0x0000000008002cec        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+                0x0000000008002cec                srand1
+ .text.randr    0x0000000008002cf8       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+                0x0000000008002cf8                randr
+ .text.memcpy1  0x0000000008002d0e       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+                0x0000000008002d0e                memcpy1
  .text.Reset_Handler
-                0x0000000008002d3c       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
-                0x0000000008002d3c                Reset_Handler
+                0x0000000008002d20       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+                0x0000000008002d20                Reset_Handler
  .text.Default_Handler
-                0x0000000008002d8c        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
-                0x0000000008002d8c                TIM1_BRK_UP_TRG_COM_IRQHandler
-                0x0000000008002d8c                HardFault_Handler
-                0x0000000008002d8c                ADC1_COMP_IRQHandler
-                0x0000000008002d8c                PVD_IRQHandler
-                0x0000000008002d8c                PendSV_Handler
-                0x0000000008002d8c                I2C1_IRQHandler
-                0x0000000008002d8c                SPI1_IRQHandler
-                0x0000000008002d8c                TIM6_DAC_IRQHandler
-                0x0000000008002d8c                I2C2_IRQHandler
-                0x0000000008002d8c                TIM17_IRQHandler
-                0x0000000008002d8c                TIM16_IRQHandler
-                0x0000000008002d8c                TIM3_IRQHandler
-                0x0000000008002d8c                RCC_IRQHandler
-                0x0000000008002d8c                DMA1_Channel1_IRQHandler
-                0x0000000008002d8c                Default_Handler
-                0x0000000008002d8c                CEC_IRQHandler
-                0x0000000008002d8c                TIM14_IRQHandler
-                0x0000000008002d8c                DMA1_Channel4_5_IRQHandler
-                0x0000000008002d8c                TIM15_IRQHandler
-                0x0000000008002d8c                SPI2_IRQHandler
-                0x0000000008002d8c                SVC_Handler
-                0x0000000008002d8c                TS_IRQHandler
-                0x0000000008002d8c                WWDG_IRQHandler
-                0x0000000008002d8c                TIM2_IRQHandler
-                0x0000000008002d8c                DMA1_Channel2_3_IRQHandler
-                0x0000000008002d8c                USART2_IRQHandler
-                0x0000000008002d8c                FLASH_IRQHandler
-                0x0000000008002d8c                TIM1_CC_IRQHandler
- *fill*         0x0000000008002d8e        0x2 
+                0x0000000008002d70        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+                0x0000000008002d70                TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x0000000008002d70                HardFault_Handler
+                0x0000000008002d70                ADC1_COMP_IRQHandler
+                0x0000000008002d70                PVD_IRQHandler
+                0x0000000008002d70                PendSV_Handler
+                0x0000000008002d70                I2C1_IRQHandler
+                0x0000000008002d70                SPI1_IRQHandler
+                0x0000000008002d70                TIM6_DAC_IRQHandler
+                0x0000000008002d70                I2C2_IRQHandler
+                0x0000000008002d70                TIM17_IRQHandler
+                0x0000000008002d70                TIM16_IRQHandler
+                0x0000000008002d70                TIM3_IRQHandler
+                0x0000000008002d70                RCC_IRQHandler
+                0x0000000008002d70                DMA1_Channel1_IRQHandler
+                0x0000000008002d70                Default_Handler
+                0x0000000008002d70                CEC_IRQHandler
+                0x0000000008002d70                TIM14_IRQHandler
+                0x0000000008002d70                DMA1_Channel4_5_IRQHandler
+                0x0000000008002d70                TIM15_IRQHandler
+                0x0000000008002d70                SPI2_IRQHandler
+                0x0000000008002d70                SVC_Handler
+                0x0000000008002d70                TS_IRQHandler
+                0x0000000008002d70                WWDG_IRQHandler
+                0x0000000008002d70                TIM2_IRQHandler
+                0x0000000008002d70                DMA1_Channel2_3_IRQHandler
+                0x0000000008002d70                USART2_IRQHandler
+                0x0000000008002d70                FLASH_IRQHandler
+                0x0000000008002d70                TIM1_CC_IRQHandler
+ *fill*         0x0000000008002d72        0x2 
  .text.SystemInit
-                0x0000000008002d90       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
-                0x0000000008002d90                SystemInit
+                0x0000000008002d74       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+                0x0000000008002d74                SystemInit
  .text.SystemCoreClockUpdate
-                0x0000000008002df0       0x80 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
-                0x0000000008002df0                SystemCoreClockUpdate
+                0x0000000008002dd4       0x80 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+                0x0000000008002dd4                SystemCoreClockUpdate
  .text.HAL_MspInit
-                0x0000000008002e70        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002e70                HAL_MspInit
- *fill*         0x0000000008002e72        0x2 
+                0x0000000008002e54        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002e54                HAL_MspInit
+ *fill*         0x0000000008002e56        0x2 
  .text.HAL_InitTick
-                0x0000000008002e74       0x48 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002e74                HAL_InitTick
+                0x0000000008002e58       0x48 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002e58                HAL_InitTick
  .text.HAL_Init
-                0x0000000008002ebc       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002ebc                HAL_Init
+                0x0000000008002ea0       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002ea0                HAL_Init
  .text.HAL_IncTick
-                0x0000000008002edc       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002edc                HAL_IncTick
+                0x0000000008002ec0       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002ec0                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008002ef4        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002ef4                HAL_GetTick
+                0x0000000008002ed8        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002ed8                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008002f00       0x24 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002f00                HAL_Delay
+                0x0000000008002ee4       0x24 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002ee4                HAL_Delay
  .text.HAL_DBGMCU_EnableDBGStopMode
-                0x0000000008002f24       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002f24                HAL_DBGMCU_EnableDBGStopMode
+                0x0000000008002f08       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002f08                HAL_DBGMCU_EnableDBGStopMode
  .text.HAL_DBGMCU_EnableDBGStandbyMode
-                0x0000000008002f34       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000008002f34                HAL_DBGMCU_EnableDBGStandbyMode
+                0x0000000008002f18       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000008002f18                HAL_DBGMCU_EnableDBGStandbyMode
  .text.HAL_NVIC_SetPriority
-                0x0000000008002f44       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008002f44                HAL_NVIC_SetPriority
+                0x0000000008002f28       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002f28                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008002f98       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008002f98                HAL_NVIC_EnableIRQ
+                0x0000000008002f7c       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002f7c                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008002fac       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008002fac                HAL_SYSTICK_Config
+                0x0000000008002f90       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002f90                HAL_SYSTICK_Config
  .text.HAL_NVIC_GetPendingIRQ
-                0x0000000008002fe0       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008002fe0                HAL_NVIC_GetPendingIRQ
+                0x0000000008002fc4       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002fc4                HAL_NVIC_GetPendingIRQ
  .text.HAL_SYSTICK_CLKSourceConfig
-                0x0000000008002ff4       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008002ff4                HAL_SYSTICK_CLKSourceConfig
+                0x0000000008002fd8       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002fd8                HAL_SYSTICK_CLKSourceConfig
  .text.HAL_SYSTICK_Callback
-                0x0000000008003010        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008003010                HAL_SYSTICK_Callback
+                0x0000000008002ff4        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002ff4                HAL_SYSTICK_Callback
  .text.HAL_SYSTICK_IRQHandler
-                0x0000000008003012        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
-                0x0000000008003012                HAL_SYSTICK_IRQHandler
+                0x0000000008002ff6        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+                0x0000000008002ff6                HAL_SYSTICK_IRQHandler
  .text.HAL_DMA_Abort_IT
-                0x000000000800301a       0x46 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
-                0x000000000800301a                HAL_DMA_Abort_IT
+                0x0000000008002ffe       0x46 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+                0x0000000008002ffe                HAL_DMA_Abort_IT
  .text.HAL_GPIO_Init
-                0x0000000008003060      0x174 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x0000000008003060                HAL_GPIO_Init
+                0x0000000008003044      0x174 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x0000000008003044                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x00000000080031d4        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x00000000080031d4                HAL_GPIO_WritePin
+                0x00000000080031b8        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x00000000080031b8                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x00000000080031e0        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x00000000080031e0                HAL_GPIO_TogglePin
+                0x00000000080031c4        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x00000000080031c4                HAL_GPIO_TogglePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x00000000080031ec       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
-                0x00000000080031ec                HAL_GPIO_EXTI_IRQHandler
+                0x00000000080031d0       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+                0x00000000080031d0                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_PWR_EnterSLEEPMode
-                0x0000000008003204       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
-                0x0000000008003204                HAL_PWR_EnterSLEEPMode
+                0x00000000080031e8       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+                0x00000000080031e8                HAL_PWR_EnterSLEEPMode
  .text.HAL_RCC_OscConfig
-                0x0000000008003224      0x4a0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x0000000008003224                HAL_RCC_OscConfig
+                0x0000000008003208      0x4a0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x0000000008003208                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x00000000080036c4       0x94 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x00000000080036c4                HAL_RCC_GetSysClockFreq
+                0x00000000080036a8       0x94 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x00000000080036a8                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008003758      0x118 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x0000000008003758                HAL_RCC_ClockConfig
+                0x000000000800373c      0x118 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x000000000800373c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008003870        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x0000000008003870                HAL_RCC_GetHCLKFreq
+                0x0000000008003854        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x0000000008003854                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x000000000800387c       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
-                0x000000000800387c                HAL_RCC_GetPCLK1Freq
+                0x0000000008003860       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x0000000008003860                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x000000000800389c      0x144 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
-                0x000000000800389c                HAL_RCCEx_PeriphCLKConfig
+                0x0000000008003880      0x144 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+                0x0000000008003880                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_RTC_MspInit
-                0x00000000080039e0        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x00000000080039e0                HAL_RTC_MspInit
- *fill*         0x00000000080039e2        0x2 
+                0x00000000080039c4        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x00000000080039c4                HAL_RTC_MspInit
+ *fill*         0x00000000080039c6        0x2 
  .text.HAL_RTC_DeactivateAlarm
-                0x00000000080039e4       0x74 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x00000000080039e4                HAL_RTC_DeactivateAlarm
+                0x00000000080039c8       0x74 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x00000000080039c8                HAL_RTC_DeactivateAlarm
  .text.HAL_RTC_WaitForSynchro
-                0x0000000008003a58       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003a58                HAL_RTC_WaitForSynchro
+                0x0000000008003a3c       0x34 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003a3c                HAL_RTC_WaitForSynchro
  .text.RTC_EnterInitMode
-                0x0000000008003a8c       0x38 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003a8c                RTC_EnterInitMode
+                0x0000000008003a70       0x38 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003a70                RTC_EnterInitMode
  .text.HAL_RTC_Init
-                0x0000000008003ac4       0xa8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003ac4                HAL_RTC_Init
+                0x0000000008003aa8       0xa8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003aa8                HAL_RTC_Init
  .text.RTC_ByteToBcd2
-                0x0000000008003b6c       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003b6c                RTC_ByteToBcd2
- *fill*         0x0000000008003b82        0x2 
+                0x0000000008003b50       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003b50                RTC_ByteToBcd2
+ *fill*         0x0000000008003b66        0x2 
  .text.HAL_RTC_SetTime
-                0x0000000008003b84       0xf4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003b84                HAL_RTC_SetTime
+                0x0000000008003b68       0xf4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003b68                HAL_RTC_SetTime
  .text.HAL_RTC_SetDate
-                0x0000000008003c78       0xc4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003c78                HAL_RTC_SetDate
+                0x0000000008003c5c       0xc4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003c5c                HAL_RTC_SetDate
  .text.HAL_RTC_SetAlarm_IT
-                0x0000000008003d3c      0x140 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003d3c                HAL_RTC_SetAlarm_IT
+                0x0000000008003d20      0x140 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003d20                HAL_RTC_SetAlarm_IT
  .text.RTC_Bcd2ToByte
-                0x0000000008003e7c       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003e7c                RTC_Bcd2ToByte
- *fill*         0x0000000008003e8e        0x2 
+                0x0000000008003e60       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003e60                RTC_Bcd2ToByte
+ *fill*         0x0000000008003e72        0x2 
  .text.HAL_RTC_GetTime
-                0x0000000008003e90       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003e90                HAL_RTC_GetTime
+                0x0000000008003e74       0x54 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003e74                HAL_RTC_GetTime
  .text.HAL_RTC_GetDate
-                0x0000000008003ee4       0x44 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003ee4                HAL_RTC_GetDate
+                0x0000000008003ec8       0x44 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003ec8                HAL_RTC_GetDate
  .text.HAL_RTC_GetAlarm
-                0x0000000008003f28       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
-                0x0000000008003f28                HAL_RTC_GetAlarm
+                0x0000000008003f0c       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+                0x0000000008003f0c                HAL_RTC_GetAlarm
  .text.HAL_RTCEx_EnableBypassShadow
-                0x0000000008003fa0       0x2e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
-                0x0000000008003fa0                HAL_RTCEx_EnableBypassShadow
+                0x0000000008003f84       0x2e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+                0x0000000008003f84                HAL_RTCEx_EnableBypassShadow
  .text.HAL_SPI_MspInit
-                0x0000000008003fce        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
-                0x0000000008003fce                HAL_SPI_MspInit
+                0x0000000008003fb2        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008003fb2                HAL_SPI_MspInit
  .text.HAL_SPI_Init
-                0x0000000008003fd0       0xdc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
-                0x0000000008003fd0                HAL_SPI_Init
+                0x0000000008003fb4       0xdc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+                0x0000000008003fb4                HAL_SPI_Init
  .text.UART_EndRxTransfer
-                0x00000000080040ac       0x24 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004090       0x24 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
  .text.UART_TxISR_8BIT
-                0x00000000080040d0       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x00000000080040b4       0x3a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
  .text.UART_TxISR_16BIT
-                0x000000000800410a       0x3e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x00000000080040ee       0x3e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
  .text.HAL_UART_MspInit
-                0x0000000008004148        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x0000000008004148                HAL_UART_MspInit
- *fill*         0x000000000800414a        0x2 
+                0x000000000800412c        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x000000000800412c                HAL_UART_MspInit
+ *fill*         0x000000000800412e        0x2 
  .text.HAL_UART_Transmit_IT
-                0x000000000800414c       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x000000000800414c                HAL_UART_Transmit_IT
+                0x0000000008004130       0x78 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004130                HAL_UART_Transmit_IT
  .text.HAL_UART_Receive_IT
-                0x00000000080041c4       0xc8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x00000000080041c4                HAL_UART_Receive_IT
+                0x00000000080041a8       0xc8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x00000000080041a8                HAL_UART_Receive_IT
  .text.UART_RxISR_8BIT
-                0x000000000800428c       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004270       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
  .text.UART_RxISR_16BIT
-                0x00000000080042ec       0x5c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x00000000080042d0       0x5c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
  .text.HAL_UART_IRQHandler
-                0x0000000008004348      0x154 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x0000000008004348                HAL_UART_IRQHandler
+                0x000000000800432c      0x154 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x000000000800432c                HAL_UART_IRQHandler
  .text.UART_DMAAbortOnError
-                0x000000000800449c       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- *fill*         0x00000000080044b2        0x2 
+                0x0000000008004480       0x16 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ *fill*         0x0000000008004496        0x2 
  .text.UART_SetConfig
-                0x00000000080044b4      0x19c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x00000000080044b4                UART_SetConfig
+                0x0000000008004498      0x19c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004498                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x0000000008004650       0xd0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x0000000008004650                UART_AdvFeatureConfig
+                0x0000000008004634       0xd0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004634                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x0000000008004720       0x90 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x0000000008004720                UART_WaitOnFlagUntilTimeout
+                0x0000000008004704       0x90 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004704                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x00000000080047b0       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x00000000080047b0                UART_CheckIdleState
+                0x0000000008004794       0x60 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x0000000008004794                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x0000000008004810       0x64 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
-                0x0000000008004810                HAL_UART_Init
+                0x00000000080047f4       0x64 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+                0x00000000080047f4                HAL_UART_Init
  .text.HAL_UARTEx_WakeupCallback
-                0x0000000008004874        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
-                0x0000000008004874                HAL_UARTEx_WakeupCallback
+                0x0000000008004858        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+                0x0000000008004858                HAL_UARTEx_WakeupCallback
  .text.SX1276CheckRfFrequency
-                0x0000000008004876        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004876                SX1276CheckRfFrequency
- *fill*         0x000000000800487a        0x2 
+                0x000000000800485a        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x000000000800485a                SX1276CheckRfFrequency
+ *fill*         0x000000000800485e        0x2 
  .text.SX1276IoInit
-                0x000000000800487c       0x98 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x000000000800487c                SX1276IoInit
+                0x0000000008004860       0x98 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004860                SX1276IoInit
  .text.SX1276IoIrqInit
-                0x0000000008004914       0x68 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004914                SX1276IoIrqInit
+                0x00000000080048f8       0x68 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x00000000080048f8                SX1276IoIrqInit
  .text.SX1276IoDbgInit
-                0x000000000800497c        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x000000000800497c                SX1276IoDbgInit
+                0x0000000008004960        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004960                SX1276IoDbgInit
  .text.SX1276IoTcxoInit
-                0x000000000800497e        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x000000000800497e                SX1276IoTcxoInit
+                0x0000000008004962        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004962                SX1276IoTcxoInit
  .text.SX1276SetBoardTcxo
-                0x0000000008004980        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004980                SX1276SetBoardTcxo
+                0x0000000008004964        0x2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004964                SX1276SetBoardTcxo
  .text.SX1276GetBoardTcxoWakeupTime
-                0x0000000008004982        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004982                SX1276GetBoardTcxoWakeupTime
- *fill*         0x0000000008004986        0x2 
+                0x0000000008004966        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004966                SX1276GetBoardTcxoWakeupTime
+ *fill*         0x000000000800496a        0x2 
  .text.SX1276Reset
-                0x0000000008004988       0x3c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004988                SX1276Reset
+                0x000000000800496c       0x3c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x000000000800496c                SX1276Reset
  .text.SX1276SetRfTxPower
-                0x00000000080049c4       0x5a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x00000000080049c4                SX1276SetRfTxPower
- *fill*         0x0000000008004a1e        0x2 
+                0x00000000080049a8       0x5a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x00000000080049a8                SX1276SetRfTxPower
+ *fill*         0x0000000008004a02        0x2 
  .text.SX1276AntSwInit
-                0x0000000008004a20       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004a20                SX1276AntSwInit
+                0x0000000008004a04       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004a04                SX1276AntSwInit
  .text.SX1276AntSwDeInit
-                0x0000000008004a3c       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004a3c                SX1276AntSwDeInit
+                0x0000000008004a20       0x1c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004a20                SX1276AntSwDeInit
  .text.SX1276SetAntSwLowPower
-                0x0000000008004a58       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004a58                SX1276SetAntSwLowPower
+                0x0000000008004a3c       0x20 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004a3c                SX1276SetAntSwLowPower
  .text.SX1276SetAntSw
-                0x0000000008004a78       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000008004a78                SX1276SetAntSw
- .text          0x0000000008004a90       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_sqi.o)
-                0x0000000008004a90                __gnu_thumb1_case_sqi
- .text          0x0000000008004aa4       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
-                0x0000000008004aa4                __gnu_thumb1_case_uqi
- .text          0x0000000008004ab8      0x114 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
-                0x0000000008004ab8                __udivsi3
-                0x0000000008004ab8                __aeabi_uidiv
-                0x0000000008004bc4                __aeabi_uidivmod
- .text          0x0000000008004bcc      0x1d4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
-                0x0000000008004bcc                __aeabi_idiv
-                0x0000000008004bcc                __divsi3
-                0x0000000008004d98                __aeabi_idivmod
- .text          0x0000000008004da0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000008004da0                __aeabi_ldiv0
-                0x0000000008004da0                __aeabi_idiv0
- .text          0x0000000008004da4       0x7c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_arm_cmpdf2.o)
-                0x0000000008004da4                __aeabi_cdrcmple
-                0x0000000008004db4                __aeabi_cdcmple
-                0x0000000008004db4                __aeabi_cdcmpeq
-                0x0000000008004dc4                __aeabi_dcmpeq
-                0x0000000008004dd0                __aeabi_dcmplt
-                0x0000000008004de4                __aeabi_dcmple
-                0x0000000008004df8                __aeabi_dcmpgt
-                0x0000000008004e0c                __aeabi_dcmpge
- .text          0x0000000008004e20       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000008004e20                __aeabi_uldivmod
- .text          0x0000000008004e60       0x3c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_fixunsdfsi.o)
-                0x0000000008004e60                __fixunsdfsi
-                0x0000000008004e60                __aeabi_d2uiz
- .text          0x0000000008004e9c      0x198 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x0000000008004e9c                __udivmoddi4
- .text          0x0000000008005034      0x5d0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
-                0x0000000008005034                __aeabi_ddiv
- .text          0x0000000008005604       0x78 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(eqdf2.o)
-                0x0000000008005604                __eqdf2
-                0x0000000008005604                __nedf2
- .text          0x000000000800567c       0xe4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(gedf2.o)
-                0x000000000800567c                __gtdf2
-                0x000000000800567c                __gedf2
- .text          0x0000000008005760       0xe0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(ledf2.o)
-                0x0000000008005760                __ltdf2
-                0x0000000008005760                __ledf2
- .text          0x0000000008005840      0x4d8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
-                0x0000000008005840                __aeabi_dmul
- .text          0x0000000008005d18      0x724 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(subdf3.o)
-                0x0000000008005d18                __aeabi_dsub
- .text          0x000000000800643c       0x6c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(fixdfsi.o)
-                0x000000000800643c                __aeabi_d2iz
- .text          0x00000000080064a8       0x60 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
-                0x00000000080064a8                __aeabi_i2d
- .text          0x0000000008006508       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(floatunsidf.o)
-                0x0000000008006508                __aeabi_ui2d
- .text          0x0000000008006554       0x3c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
-                0x0000000008006554                __clzsi2
- .text          0x0000000008006590       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
-                0x0000000008006590                __clzdi2
+                0x0000000008004a5c       0x18 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000008004a5c                SX1276SetAntSw
+ .text          0x0000000008004a74       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_sqi.o)
+                0x0000000008004a74                __gnu_thumb1_case_sqi
+ .text          0x0000000008004a88       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_uqi.o)
+                0x0000000008004a88                __gnu_thumb1_case_uqi
+ .text          0x0000000008004a9c      0x114 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x0000000008004a9c                __udivsi3
+                0x0000000008004a9c                __aeabi_uidiv
+                0x0000000008004ba8                __aeabi_uidivmod
+ .text          0x0000000008004bb0      0x1d4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+                0x0000000008004bb0                __aeabi_idiv
+                0x0000000008004bb0                __divsi3
+                0x0000000008004d7c                __aeabi_idivmod
+ .text          0x0000000008004d84        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x0000000008004d84                __aeabi_ldiv0
+                0x0000000008004d84                __aeabi_idiv0
+ .text          0x0000000008004d88       0x7c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008004d88                __aeabi_cdrcmple
+                0x0000000008004d98                __aeabi_cdcmple
+                0x0000000008004d98                __aeabi_cdcmpeq
+                0x0000000008004da8                __aeabi_dcmpeq
+                0x0000000008004db4                __aeabi_dcmplt
+                0x0000000008004dc8                __aeabi_dcmple
+                0x0000000008004ddc                __aeabi_dcmpgt
+                0x0000000008004df0                __aeabi_dcmpge
+ .text          0x0000000008004e04       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008004e04                __aeabi_uldivmod
+ .text          0x0000000008004e44       0x3c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_fixunsdfsi.o)
+                0x0000000008004e44                __fixunsdfsi
+                0x0000000008004e44                __aeabi_d2uiz
+ .text          0x0000000008004e80      0x198 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008004e80                __udivmoddi4
+ .text          0x0000000008005018      0x5d0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
+                0x0000000008005018                __aeabi_ddiv
+ .text          0x00000000080055e8       0x78 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(eqdf2.o)
+                0x00000000080055e8                __eqdf2
+                0x00000000080055e8                __nedf2
+ .text          0x0000000008005660       0xe4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(gedf2.o)
+                0x0000000008005660                __gtdf2
+                0x0000000008005660                __gedf2
+ .text          0x0000000008005744       0xe0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(ledf2.o)
+                0x0000000008005744                __ltdf2
+                0x0000000008005744                __ledf2
+ .text          0x0000000008005824      0x4d8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
+                0x0000000008005824                __aeabi_dmul
+ .text          0x0000000008005cfc      0x724 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(subdf3.o)
+                0x0000000008005cfc                __aeabi_dsub
+ .text          0x0000000008006420       0x6c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(fixdfsi.o)
+                0x0000000008006420                __aeabi_d2iz
+ .text          0x000000000800648c       0x60 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
+                0x000000000800648c                __aeabi_i2d
+ .text          0x00000000080064ec       0x4c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(floatunsidf.o)
+                0x00000000080064ec                __aeabi_ui2d
+ .text          0x0000000008006538       0x3c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                0x0000000008006538                __clzsi2
+ .text          0x0000000008006574       0x18 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                0x0000000008006574                __clzdi2
  .text.__libc_init_array
-                0x00000000080065a8       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-init.o)
-                0x00000000080065a8                __libc_init_array
- .text.memcpy   0x00000000080065f0       0x12 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
-                0x00000000080065f0                memcpy
- .text.memset   0x0000000008006602       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008006602                memset
- *fill*         0x0000000008006612        0x2 
- .text.printf   0x0000000008006614       0x34 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
-                0x0000000008006614                printf
-                0x0000000008006614                iprintf
- .text          0x0000000008006648        0xe /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-strlen.o)
-                0x0000000008006648                strlen
- .text.strncmp  0x0000000008006656       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-strncmp.o)
-                0x0000000008006656                strncmp
- .text.std      0x0000000008006678       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x000000000800658c       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-init.o)
+                0x000000000800658c                __libc_init_array
+ .text.memcpy   0x00000000080065d4       0x12 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000000080065d4                memcpy
+ .text.memset   0x00000000080065e6       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x00000000080065e6                memset
+ *fill*         0x00000000080065f6        0x2 
+ .text.printf   0x00000000080065f8       0x34 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-printf.o)
+                0x00000000080065f8                printf
+                0x00000000080065f8                iprintf
+ .text          0x000000000800662c        0xe /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-strlen.o)
+                0x000000000800662c                strlen
+ .text.strncmp  0x000000000800663a       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-strncmp.o)
+                0x000000000800663a                strncmp
+ .text.std      0x000000000800665c       0x48 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x00000000080066c0       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x00000000080066c0                _cleanup_r
+                0x00000000080066a4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080066a4                _cleanup_r
  .text.__sfmoreglue
-                0x00000000080066d0       0x2c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x00000000080066d0                __sfmoreglue
+                0x00000000080066b4       0x2c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080066b4                __sfmoreglue
  .text.__sfp_lock_acquire
-                0x00000000080066fc       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x00000000080066fc                __sfp_lock_acquire
+                0x00000000080066e0       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080066e0                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x000000000800670c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800670c                __sfp_lock_release
+                0x00000000080066f0       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080066f0                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x000000000800671c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800671c                __sinit_lock_acquire
+                0x0000000008006700       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008006700                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x000000000800672c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800672c                __sinit_lock_release
- .text.__sinit  0x000000000800673c       0x70 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800673c                __sinit
- .text.__sfp    0x00000000080067ac       0x90 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x00000000080067ac                __sfp
+                0x0000000008006710       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008006710                __sinit_lock_release
+ .text.__sinit  0x0000000008006720       0x70 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008006720                __sinit
+ .text.__sfp    0x0000000008006790       0x90 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008006790                __sfp
  .text._fwalk_reent
-                0x000000000800683c       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
-                0x000000000800683c                _fwalk_reent
+                0x0000000008006820       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fwalk.o)
+                0x0000000008006820                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x000000000800687c        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x000000000800687c                __retarget_lock_init_recursive
+                0x0000000008006860        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008006860                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x000000000800687e        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x000000000800687e                __retarget_lock_acquire_recursive
+                0x0000000008006862        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008006862                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008006880        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000008006880                __retarget_lock_release_recursive
- *fill*         0x0000000008006882        0x2 
+                0x0000000008006864        0x2 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000008006864                __retarget_lock_release_recursive
+ *fill*         0x0000000008006866        0x2 
  .text._malloc_r
-                0x0000000008006884       0xbc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008006884                _malloc_r
+                0x0000000008006868       0xbc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008006868                _malloc_r
  .text.__sfputc_r
-                0x0000000008006940       0x2a /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008006924       0x2a /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x000000000800696a       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
-                0x000000000800696a                __sfputs_r
- *fill*         0x000000000800698e        0x2 
+                0x000000000800694e       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x000000000800694e                __sfputs_r
+ *fill*         0x0000000008006972        0x2 
  .text._vfprintf_r
-                0x0000000008006990      0x274 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000008006990                _vfiprintf_r
-                0x0000000008006990                _vfprintf_r
+                0x0000000008006974      0x274 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008006974                _vfiprintf_r
+                0x0000000008006974                _vfprintf_r
  .text._printf_common
-                0x0000000008006c04       0xde /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006c04                _printf_common
- *fill*         0x0000000008006ce2        0x2 
+                0x0000000008006be8       0xde /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008006be8                _printf_common
+ *fill*         0x0000000008006cc6        0x2 
  .text._printf_i
-                0x0000000008006ce4      0x224 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008006ce4                _printf_i
- .text._sbrk_r  0x0000000008006f08       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
-                0x0000000008006f08                _sbrk_r
- .text.__sread  0x0000000008006f2c       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008006f2c                __sread
+                0x0000000008006cc8      0x224 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008006cc8                _printf_i
+ .text._sbrk_r  0x0000000008006eec       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000008006eec                _sbrk_r
+ .text.__sread  0x0000000008006f10       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008006f10                __sread
  .text.__swrite
-                0x0000000008006f54       0x38 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008006f54                __swrite
- .text.__sseek  0x0000000008006f8c       0x2c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008006f8c                __sseek
+                0x0000000008006f38       0x38 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008006f38                __swrite
+ .text.__sseek  0x0000000008006f70       0x2c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008006f70                __sseek
  .text.__sclose
-                0x0000000008006fb8        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
-                0x0000000008006fb8                __sclose
+                0x0000000008006f9c        0xc /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-stdio.o)
+                0x0000000008006f9c                __sclose
  .text.__swbuf_r
-                0x0000000008006fc4       0xac /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
-                0x0000000008006fc4                __swbuf_r
+                0x0000000008006fa8       0xac /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wbuf.o)
+                0x0000000008006fa8                __swbuf_r
  .text._write_r
-                0x0000000008007070       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
-                0x0000000008007070                _write_r
+                0x0000000008007054       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-writer.o)
+                0x0000000008007054                _write_r
  .text.__swsetup_r
-                0x0000000008007098       0xf0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
-                0x0000000008007098                __swsetup_r
+                0x000000000800707c       0xf0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-wsetup.o)
+                0x000000000800707c                __swsetup_r
  .text._close_r
-                0x0000000008007188       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
-                0x0000000008007188                _close_r
+                0x000000000800716c       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-closer.o)
+                0x000000000800716c                _close_r
  .text.__sflush_r
-                0x00000000080071ac      0x118 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
-                0x00000000080071ac                __sflush_r
+                0x0000000008007190      0x118 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x0000000008007190                __sflush_r
  .text._fflush_r
-                0x00000000080072c4       0x80 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
-                0x00000000080072c4                _fflush_r
+                0x00000000080072a8       0x80 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fflush.o)
+                0x00000000080072a8                _fflush_r
  .text._lseek_r
-                0x0000000008007344       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
-                0x0000000008007344                _lseek_r
+                0x0000000008007328       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lseekr.o)
+                0x0000000008007328                _lseek_r
  .text.__swhatbuf_r
-                0x000000000800736c       0x50 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
-                0x000000000800736c                __swhatbuf_r
+                0x0000000008007350       0x50 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x0000000008007350                __swhatbuf_r
  .text.__smakebuf_r
-                0x00000000080073bc       0x88 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
-                0x00000000080073bc                __smakebuf_r
- .text.memchr   0x0000000008007444       0x16 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
-                0x0000000008007444                memchr
- *fill*         0x000000000800745a        0x2 
+                0x00000000080073a0       0x88 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-makebuf.o)
+                0x00000000080073a0                __smakebuf_r
+ .text.memchr   0x0000000008007428       0x16 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-memchr-stub.o)
+                0x0000000008007428                memchr
+ *fill*         0x000000000800743e        0x2 
  .text.__malloc_lock
-                0x000000000800745c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x000000000800745c                __malloc_lock
+                0x0000000008007440       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x0000000008007440                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800746c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
-                0x000000000800746c                __malloc_unlock
- .text._free_r  0x000000000800747c       0x94 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
-                0x000000000800747c                _free_r
- .text._read_r  0x0000000008007510       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
-                0x0000000008007510                _read_r
+                0x0000000008007450       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-mlock.o)
+                0x0000000008007450                __malloc_unlock
+ .text._free_r  0x0000000008007460       0x94 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008007460                _free_r
+ .text._read_r  0x00000000080074f4       0x28 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-readr.o)
+                0x00000000080074f4                _read_r
  .text._fstat_r
-                0x0000000008007538       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
-                0x0000000008007538                _fstat_r
+                0x000000000800751c       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-fstatr.o)
+                0x000000000800751c                _fstat_r
  .text._isatty_r
-                0x000000000800755c       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
-                0x000000000800755c                _isatty_r
- .text          0x0000000008007580       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
-                0x0000000008007580                __gnu_thumb1_case_shi
- .text._close   0x0000000008007594       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
-                0x0000000008007594                _close
- .text._fstat   0x00000000080075a4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
-                0x00000000080075a4                _fstat
- .text._isatty  0x00000000080075b4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
-                0x00000000080075b4                _isatty
- .text._lseek   0x00000000080075c4       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
-                0x00000000080075c4                _lseek
- .text._sbrk    0x00000000080075d4       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
-                0x00000000080075d4                _sbrk
+                0x0000000008007540       0x24 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-isattyr.o)
+                0x0000000008007540                _isatty_r
+ .text          0x0000000008007564       0x14 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+                0x0000000008007564                __gnu_thumb1_case_shi
+ .text._close   0x0000000008007578       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(close.o)
+                0x0000000008007578                _close
+ .text._fstat   0x0000000008007588       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(fstat.o)
+                0x0000000008007588                _fstat
+ .text._isatty  0x0000000008007598       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(isatty.o)
+                0x0000000008007598                _isatty
+ .text._lseek   0x00000000080075a8       0x10 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(lseek.o)
+                0x00000000080075a8                _lseek
+ .text._sbrk    0x00000000080075b8       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
+                0x00000000080075b8                _sbrk
  *(.init)
- .init          0x00000000080075f0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00000000080075f0                _init
- .init          0x00000000080075f4        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x00000000080075d4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00000000080075d4                _init
+ .init          0x00000000080075d8        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x00000000080075fc        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00000000080075fc                _fini
- .fini          0x0000000008007600        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
+ .fini          0x00000000080075e0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00000000080075e0                _fini
+ .fini          0x00000000080075e4        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3462,98 +3461,95 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
  *(.dtors)
  *(.rodata*)
  .rodata.main.str1.1
-                0x0000000008007608       0x2c CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                0x00000000080075ec       0x2c CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
  .rodata.PingMsg
-                0x0000000008007634       0x41 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
-                0x0000000008007634                PingMsg
- *fill*         0x0000000008007675        0x3 
+                0x0000000008007618       0x41 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                0x0000000008007618                PingMsg
+ *fill*         0x0000000008007659        0x3 
  .rodata.PongMsg
-                0x0000000008007678       0x41 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
-                0x0000000008007678                PongMsg
- *fill*         0x00000000080076b9        0x3 
+                0x000000000800765c       0x41 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                0x000000000800765c                PongMsg
+ *fill*         0x000000000800769d        0x3 
  .rodata.CSWTCH.65
-                0x00000000080076bc        0xc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080076a0        0xc ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  .rodata.FskBandwidths
-                0x00000000080076c8       0xb0 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x00000000080076c8                FskBandwidths
+                0x00000000080076ac       0xb0 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x00000000080076ac                FskBandwidths
  .rodata.RadioRegsInit
-                0x0000000008007778       0x30 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000008007778                RadioRegsInit
- .rodata.BoardInitMcu.str1.1
-                0x00000000080077a8        0x6 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x000000000800775c       0x30 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x000000000800775c                RadioRegsInit
  .rodata.CSWTCH.7
-                0x00000000080077ae        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
- *fill*         0x00000000080077b2        0x2 
+                0x000000000800778c        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
  .rodata.DaysInMonth
-                0x00000000080077b4        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x0000000008007790        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
  .rodata.DaysInMonthLeapYear
-                0x00000000080077c0        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+                0x000000000800779c        0xc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
  .rodata.AHBPrescTable
-                0x00000000080077cc       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
-                0x00000000080077cc                AHBPrescTable
+                0x00000000080077a8       0x10 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+                0x00000000080077a8                AHBPrescTable
  .rodata.APBPrescTable
-                0x00000000080077dc        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
-                0x00000000080077dc                APBPrescTable
+                0x00000000080077b8        0x8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+                0x00000000080077b8                APBPrescTable
  .rodata.HAL_RCC_GetSysClockFreq.str1.1
-                0x00000000080077e4       0x22 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+                0x00000000080077c0       0x22 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
  .rodata.CSWTCH.58
-                0x0000000008007806        0x3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- *fill*         0x0000000008007809        0x3 
- .rodata.Radio  0x000000000800780c       0x6c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x000000000800780c                Radio
- .rodata        0x0000000008007878       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
- .rodata        0x00000000080078b8       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
+                0x00000000080077e2        0x3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ *fill*         0x00000000080077e5        0x3 
+ .rodata.Radio  0x00000000080077e8       0x6c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x00000000080077e8                Radio
+ .rodata        0x0000000008007854       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
+ .rodata        0x0000000008007894       0x40 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
  .rodata._global_impure_ptr
-                0x00000000080078f8        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
-                0x00000000080078f8                _global_impure_ptr
+                0x00000000080078d4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-impure.o)
+                0x00000000080078d4                _global_impure_ptr
  .rodata.__sf_fake_stderr
-                0x00000000080078fc       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x00000000080078fc                __sf_fake_stderr
+                0x00000000080078d8       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080078d8                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x000000000800791c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800791c                __sf_fake_stdin
+                0x00000000080078f8       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x00000000080078f8                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x000000000800793c       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
-                0x000000000800793c                __sf_fake_stdout
+                0x0000000008007918       0x20 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-findfp.o)
+                0x0000000008007918                __sf_fake_stdout
  .rodata._vfprintf_r.str1.1
-                0x000000000800795c       0x11 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008007938       0x11 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000000800796d       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008007949       0x22 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-nano-vfprintf_i.o)
  *(.eh_frame*)
- *fill*         0x000000000800798f        0x1 
- .eh_frame      0x0000000008007990        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
- .eh_frame      0x0000000008007990        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
+ *fill*         0x000000000800796b        0x1 
+ .eh_frame      0x000000000800796c        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x000000000800796c        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.glue_7         0x0000000008007994        0x0
- .glue_7        0x0000000008007994        0x0 linker stubs
+.glue_7         0x0000000008007970        0x0
+ .glue_7        0x0000000008007970        0x0 linker stubs
 
-.glue_7t        0x0000000008007994        0x0
- .glue_7t       0x0000000008007994        0x0 linker stubs
+.glue_7t        0x0000000008007970        0x0
+ .glue_7t       0x0000000008007970        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008007994        0x0
- .vfp11_veneer  0x0000000008007994        0x0 linker stubs
+.vfp11_veneer   0x0000000008007970        0x0
+ .vfp11_veneer  0x0000000008007970        0x0 linker stubs
 
-.v4_bx          0x0000000008007994        0x0
- .v4_bx         0x0000000008007994        0x0 linker stubs
+.v4_bx          0x0000000008007970        0x0
+ .v4_bx         0x0000000008007970        0x0 linker stubs
 
-.iplt           0x0000000008007994        0x0
- .iplt          0x0000000008007994        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000008007970        0x0
+ .iplt          0x0000000008007970        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008007994                __exidx_start = .
+                0x0000000008007970                __exidx_start = .
 
-.ARM.exidx      0x0000000008007994        0x8
+.ARM.exidx      0x0000000008007970        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000000008007994        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x000000000800799c                __exidx_end = .
-                0x000000000800799c                __etext = .
-                0x000000000800799c                _sidata = .
+ .ARM.exidx     0x0000000008007970        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008007978                __exidx_end = .
+                0x0000000008007978                __etext = .
+                0x0000000008007978                _sidata = .
 
-.rel.dyn        0x000000000800799c        0x0
- .rel.iplt      0x000000000800799c        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008007978        0x0
+ .rel.iplt      0x0000000008007978        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.data           0x0000000020000000       0x98 load address 0x000000000800799c
+.data           0x0000000020000000       0x98 load address 0x0000000008007978
                 0x0000000020000000                __data_start__ = .
                 0x0000000020000000                _sdata = .
  *(vtable)
@@ -3601,10 +3597,10 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
                 0x0000000020000098                __data_end__ = .
                 0x0000000020000098                _edata = .
 
-.igot.plt       0x0000000020000098        0x0 load address 0x0000000008007a34
+.igot.plt       0x0000000020000098        0x0 load address 0x0000000008007a10
  .igot.plt      0x0000000020000098        0x0 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.bss            0x0000000020000098      0xe20 load address 0x0000000008007a38
+.bss            0x0000000020000098      0xdec load address 0x0000000008007a10
                 0x0000000020000098                . = ALIGN (0x4)
                 0x0000000020000098                __bss_start__ = .
                 0x0000000020000098                _sbss = .
@@ -3674,51 +3670,50 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
  .bss.heap_end.4144
                 0x000000002000040c        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(sbrk.o)
  *(COMMON)
- COMMON         0x0000000020000410       0x48 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
-                0x0000000020000410                t
-                0x0000000020000418                Buffer
- COMMON         0x0000000020000458      0x18c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
-                0x0000000020000458                TxTimeoutTimer
-                0x0000000020000470                RxTimeoutSyncWord
-                0x0000000020000488                SX1276
-                0x00000000200005cc                RxTimeoutTimer
- COMMON         0x00000000200005e4      0x8ac ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                0x00000000200005e4                Led2
-                0x00000000200005f8                LedOnBoard
-                0x000000002000060c                Uart1TxBuffer
-                0x0000000020000a0c                Uart1
-                0x0000000020000a54                Uart1RxBuffer
-                0x0000000020000e54                LedRed
-                0x0000000020000e68                Led1
-                0x0000000020000e7c                LedGreen
- COMMON         0x0000000020000e90        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
-                0x0000000020000e90                uwTick
- COMMON         0x0000000020000e94       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
-                0x0000000020000e94                AntSwitch
- COMMON         0x0000000020000ea8        0x9 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
-                0x0000000020000ea8                __lock___atexit_recursive_mutex
-                0x0000000020000ea9                __lock___arc4random_mutex
-                0x0000000020000eaa                __lock___env_recursive_mutex
-                0x0000000020000eab                __lock___sinit_recursive_mutex
-                0x0000000020000eac                __lock___malloc_recursive_mutex
-                0x0000000020000ead                __lock___at_quick_exit_mutex
-                0x0000000020000eae                __lock___dd_hash_mutex
-                0x0000000020000eaf                __lock___tz_mutex
-                0x0000000020000eb0                __lock___sfp_recursive_mutex
- *fill*         0x0000000020000eb1        0x3 
- COMMON         0x0000000020000eb4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
-                0x0000000020000eb4                errno
-                0x0000000020000eb8                . = ALIGN (0x4)
-                0x0000000020000eb8                __bss_end__ = .
-                0x0000000020000eb8                _ebss = .
+ COMMON         0x0000000020000410       0x14 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                0x0000000020000410                Buffer
+ COMMON         0x0000000020000424      0x18c ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+                0x0000000020000424                TxTimeoutTimer
+                0x000000002000043c                RxTimeoutSyncWord
+                0x0000000020000454                SX1276
+                0x0000000020000598                RxTimeoutTimer
+ COMMON         0x00000000200005b0      0x8ac ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                0x00000000200005b0                Led2
+                0x00000000200005c4                LedOnBoard
+                0x00000000200005d8                Uart1TxBuffer
+                0x00000000200009d8                Uart1
+                0x0000000020000a20                Uart1RxBuffer
+                0x0000000020000e20                LedRed
+                0x0000000020000e34                Led1
+                0x0000000020000e48                LedGreen
+ COMMON         0x0000000020000e5c        0x4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+                0x0000000020000e5c                uwTick
+ COMMON         0x0000000020000e60       0x14 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+                0x0000000020000e60                AntSwitch
+ COMMON         0x0000000020000e74        0x9 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-lock.o)
+                0x0000000020000e74                __lock___atexit_recursive_mutex
+                0x0000000020000e75                __lock___arc4random_mutex
+                0x0000000020000e76                __lock___env_recursive_mutex
+                0x0000000020000e77                __lock___sinit_recursive_mutex
+                0x0000000020000e78                __lock___malloc_recursive_mutex
+                0x0000000020000e79                __lock___at_quick_exit_mutex
+                0x0000000020000e7a                __lock___dd_hash_mutex
+                0x0000000020000e7b                __lock___tz_mutex
+                0x0000000020000e7c                __lock___sfp_recursive_mutex
+ *fill*         0x0000000020000e7d        0x3 
+ COMMON         0x0000000020000e80        0x4 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(lib_a-reent.o)
+                0x0000000020000e80                errno
+                0x0000000020000e84                . = ALIGN (0x4)
+                0x0000000020000e84                __bss_end__ = .
+                0x0000000020000e84                _ebss = .
 
-.heap           0x0000000020000eb8        0x0
-                0x0000000020000eb8                __end__ = .
-                0x0000000020000eb8                end = __end__
+.heap           0x0000000020000e84        0x0
+                0x0000000020000e84                __end__ = .
+                0x0000000020000e84                end = __end__
  *(.heap*)
-                0x0000000020000eb8                __HeapLimit = .
+                0x0000000020000e84                __HeapLimit = .
 
-.stack_dummy    0x0000000020000eb8        0x0
+.stack_dummy    0x0000000020000e84        0x0
  *(.stack*)
                 0x0000000020004000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020004000                _estack = __StackTop
@@ -3943,73 +3938,73 @@ OUTPUT(ping-pong elf32-littlearm)
  .comment       0x0000000000000079       0x7a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
  .comment       0x0000000000000079       0x7a ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
-.debug_info     0x0000000000000000    0x1d6cb
- .debug_info    0x0000000000000000     0x194c CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
- .debug_info    0x000000000000194c      0x133 ../../system/CMakeFiles/system.dir/delay.c.obj
- .debug_info    0x0000000000001a7f      0x2ed ../../system/CMakeFiles/system.dir/fifo.c.obj
- .debug_info    0x0000000000001d6c      0x82c ../../system/CMakeFiles/system.dir/gpio.c.obj
- .debug_info    0x0000000000002598      0x82f ../../system/CMakeFiles/system.dir/timer.c.obj
- .debug_info    0x0000000000002dc7      0xa31 ../../system/CMakeFiles/system.dir/uart.c.obj
- .debug_info    0x00000000000037f8     0x41da ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
- .debug_info    0x00000000000079d2     0x2b45 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
- .debug_info    0x000000000000a517      0x19d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
- .debug_info    0x000000000000a6b4      0xf07 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
- .debug_info    0x000000000000b5bb      0x3f5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
- .debug_info    0x000000000000b9b0     0x1cd5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
- .debug_info    0x000000000000d685     0x11b6 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
- .debug_info    0x000000000000e83b     0x1693 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
- .debug_info    0x000000000000fece       0x7c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
- .debug_info    0x000000000000ff4a      0xb63 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
- .debug_info    0x0000000000010aad       0x22 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
- .debug_info    0x0000000000010acf      0x2d3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
- .debug_info    0x0000000000010da2      0x7f0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_info    0x0000000000011592      0x963 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_info    0x0000000000011ef5      0x976 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_info    0x000000000001286b      0x71c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_info    0x0000000000012f87      0x56e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_info    0x00000000000134f5      0xb3f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_info    0x0000000000014034      0x7b6 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_info    0x00000000000147ea      0xf37 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_info    0x0000000000015721     0x116c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_info    0x000000000001688d     0x26e7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_info    0x0000000000018f74     0x1f51 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- .debug_info    0x000000000001aec5      0xa37 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
- .debug_info    0x000000000001b8fc     0x1dcf ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+.debug_info     0x0000000000000000    0x1d61c
+ .debug_info    0x0000000000000000     0x191f CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+ .debug_info    0x000000000000191f      0x133 ../../system/CMakeFiles/system.dir/delay.c.obj
+ .debug_info    0x0000000000001a52      0x2ed ../../system/CMakeFiles/system.dir/fifo.c.obj
+ .debug_info    0x0000000000001d3f      0x82c ../../system/CMakeFiles/system.dir/gpio.c.obj
+ .debug_info    0x000000000000256b      0x82f ../../system/CMakeFiles/system.dir/timer.c.obj
+ .debug_info    0x0000000000002d9a      0xa31 ../../system/CMakeFiles/system.dir/uart.c.obj
+ .debug_info    0x00000000000037cb     0x41da ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+ .debug_info    0x00000000000079a5     0x2ac3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+ .debug_info    0x000000000000a468      0x19d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+ .debug_info    0x000000000000a605      0xf07 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+ .debug_info    0x000000000000b50c      0x3f5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+ .debug_info    0x000000000000b901     0x1cd5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+ .debug_info    0x000000000000d5d6     0x11b6 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+ .debug_info    0x000000000000e78c     0x1693 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+ .debug_info    0x000000000000fe1f       0x7c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+ .debug_info    0x000000000000fe9b      0xb63 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+ .debug_info    0x00000000000109fe       0x22 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+ .debug_info    0x0000000000010a20      0x2d3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+ .debug_info    0x0000000000010cf3      0x7f0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_info    0x00000000000114e3      0x963 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_info    0x0000000000011e46      0x976 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_info    0x00000000000127bc      0x71c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_info    0x0000000000012ed8      0x56e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_info    0x0000000000013446      0xb3f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_info    0x0000000000013f85      0x7b6 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_info    0x000000000001473b      0xf37 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_info    0x0000000000015672     0x116c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_info    0x00000000000167de     0x26e7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_info    0x0000000000018ec5     0x1f51 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_info    0x000000000001ae16      0xa37 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_info    0x000000000001b84d     0x1dcf ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
-.debug_abbrev   0x0000000000000000     0x4cae
- .debug_abbrev  0x0000000000000000      0x32e CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
- .debug_abbrev  0x000000000000032e       0xf4 ../../system/CMakeFiles/system.dir/delay.c.obj
- .debug_abbrev  0x0000000000000422      0x164 ../../system/CMakeFiles/system.dir/fifo.c.obj
- .debug_abbrev  0x0000000000000586      0x13b ../../system/CMakeFiles/system.dir/gpio.c.obj
- .debug_abbrev  0x00000000000006c1      0x300 ../../system/CMakeFiles/system.dir/timer.c.obj
- .debug_abbrev  0x00000000000009c1      0x14c ../../system/CMakeFiles/system.dir/uart.c.obj
- .debug_abbrev  0x0000000000000b0d      0x560 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
- .debug_abbrev  0x000000000000106d      0x5b9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
- .debug_abbrev  0x0000000000001626       0xf5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
- .debug_abbrev  0x000000000000171b      0x33b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
- .debug_abbrev  0x0000000000001a56      0x198 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
- .debug_abbrev  0x0000000000001bee      0x4df ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
- .debug_abbrev  0x00000000000020cd      0x272 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
- .debug_abbrev  0x000000000000233f      0x2ed ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
- .debug_abbrev  0x000000000000262c       0x62 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
- .debug_abbrev  0x000000000000268e      0x27e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
- .debug_abbrev  0x000000000000290c       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
- .debug_abbrev  0x000000000000291e      0x148 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
- .debug_abbrev  0x0000000000002a66      0x27b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_abbrev  0x0000000000002ce1      0x294 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_abbrev  0x0000000000002f75      0x28d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_abbrev  0x0000000000003202      0x225 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_abbrev  0x0000000000003427      0x1b8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_abbrev  0x00000000000035df      0x2d2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000038b1      0x253 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x0000000000003b04      0x249 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_abbrev  0x0000000000003d4d      0x26e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_abbrev  0x0000000000003fbb      0x37f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_abbrev  0x000000000000433a      0x357 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- .debug_abbrev  0x0000000000004691      0x274 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
- .debug_abbrev  0x0000000000004905      0x3a9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+.debug_abbrev   0x0000000000000000     0x4c65
+ .debug_abbrev  0x0000000000000000      0x31b CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+ .debug_abbrev  0x000000000000031b       0xf4 ../../system/CMakeFiles/system.dir/delay.c.obj
+ .debug_abbrev  0x000000000000040f      0x164 ../../system/CMakeFiles/system.dir/fifo.c.obj
+ .debug_abbrev  0x0000000000000573      0x13b ../../system/CMakeFiles/system.dir/gpio.c.obj
+ .debug_abbrev  0x00000000000006ae      0x300 ../../system/CMakeFiles/system.dir/timer.c.obj
+ .debug_abbrev  0x00000000000009ae      0x14c ../../system/CMakeFiles/system.dir/uart.c.obj
+ .debug_abbrev  0x0000000000000afa      0x560 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+ .debug_abbrev  0x000000000000105a      0x583 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+ .debug_abbrev  0x00000000000015dd       0xf5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+ .debug_abbrev  0x00000000000016d2      0x33b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+ .debug_abbrev  0x0000000000001a0d      0x198 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+ .debug_abbrev  0x0000000000001ba5      0x4df ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+ .debug_abbrev  0x0000000000002084      0x272 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+ .debug_abbrev  0x00000000000022f6      0x2ed ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+ .debug_abbrev  0x00000000000025e3       0x62 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+ .debug_abbrev  0x0000000000002645      0x27e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+ .debug_abbrev  0x00000000000028c3       0x12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+ .debug_abbrev  0x00000000000028d5      0x148 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+ .debug_abbrev  0x0000000000002a1d      0x27b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_abbrev  0x0000000000002c98      0x294 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000002f2c      0x28d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_abbrev  0x00000000000031b9      0x225 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000000000033de      0x1b8 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_abbrev  0x0000000000003596      0x2d2 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000000000003868      0x253 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000000000003abb      0x249 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_abbrev  0x0000000000003d04      0x26e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_abbrev  0x0000000000003f72      0x37f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_abbrev  0x00000000000042f1      0x357 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_abbrev  0x0000000000004648      0x274 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_abbrev  0x00000000000048bc      0x3a9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
-.debug_loc      0x0000000000000000     0xc842
+.debug_loc      0x0000000000000000     0xc82c
  .debug_loc     0x0000000000000000      0x12f CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
  .debug_loc     0x000000000000012f       0x8a ../../system/CMakeFiles/system.dir/delay.c.obj
  .debug_loc     0x00000000000001b9      0x1e9 ../../system/CMakeFiles/system.dir/fifo.c.obj
@@ -4017,28 +4012,28 @@ OUTPUT(ping-pong elf32-littlearm)
  .debug_loc     0x0000000000000631      0x53b ../../system/CMakeFiles/system.dir/timer.c.obj
  .debug_loc     0x0000000000000b6c      0x3b2 ../../system/CMakeFiles/system.dir/uart.c.obj
  .debug_loc     0x0000000000000f1e     0x1d71 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
- .debug_loc     0x0000000000002c8f      0x1d4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
- .debug_loc     0x0000000000002e63       0x25 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
- .debug_loc     0x0000000000002e88      0x559 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
- .debug_loc     0x00000000000033e1       0xa9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
- .debug_loc     0x000000000000348a     0x110b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
- .debug_loc     0x0000000000004595      0x361 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
- .debug_loc     0x00000000000048f6      0x580 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
- .debug_loc     0x0000000000004e76      0x2ad ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
- .debug_loc     0x0000000000005123      0x128 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
- .debug_loc     0x000000000000524b      0x10d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_loc     0x0000000000005358      0x45f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_loc     0x00000000000057b7      0x86b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_loc     0x0000000000006022      0x39b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_loc     0x00000000000063bd       0xb0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_loc     0x000000000000646d      0x5e5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_loc     0x0000000000006a52      0x69f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_loc     0x00000000000070f1      0xbd1 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_loc     0x0000000000007cc2      0xe25 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_loc     0x0000000000008ae7     0x2146 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_loc     0x000000000000ac2d     0x1714 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- .debug_loc     0x000000000000c341      0x336 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
- .debug_loc     0x000000000000c677      0x1cb ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+ .debug_loc     0x0000000000002c8f      0x1be ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+ .debug_loc     0x0000000000002e4d       0x25 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+ .debug_loc     0x0000000000002e72      0x559 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+ .debug_loc     0x00000000000033cb       0xa9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+ .debug_loc     0x0000000000003474     0x110b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+ .debug_loc     0x000000000000457f      0x361 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+ .debug_loc     0x00000000000048e0      0x580 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+ .debug_loc     0x0000000000004e60      0x2ad ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+ .debug_loc     0x000000000000510d      0x128 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+ .debug_loc     0x0000000000005235      0x10d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_loc     0x0000000000005342      0x45f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_loc     0x00000000000057a1      0x86b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_loc     0x000000000000600c      0x39b ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_loc     0x00000000000063a7       0xb0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_loc     0x0000000000006457      0x5e5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_loc     0x0000000000006a3c      0x69f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_loc     0x00000000000070db      0xbd1 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_loc     0x0000000000007cac      0xe25 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_loc     0x0000000000008ad1     0x2146 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_loc     0x000000000000ac17     0x1714 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_loc     0x000000000000c32b      0x336 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_loc     0x000000000000c661      0x1cb ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
 .debug_aranges  0x0000000000000000     0x1048
  .debug_aranges
@@ -4137,101 +4132,101 @@ OUTPUT(ping-pong elf32-littlearm)
  .debug_ranges  0x00000000000013e8       0x50 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
  .debug_ranges  0x0000000000001438       0x70 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
-.debug_line     0x0000000000000000    0x12e65
- .debug_line    0x0000000000000000      0x5f0 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
- .debug_line    0x00000000000005f0      0x1bd ../../system/CMakeFiles/system.dir/delay.c.obj
- .debug_line    0x00000000000007ad      0x28a ../../system/CMakeFiles/system.dir/fifo.c.obj
- .debug_line    0x0000000000000a37      0x250 ../../system/CMakeFiles/system.dir/gpio.c.obj
- .debug_line    0x0000000000000c87      0x66a ../../system/CMakeFiles/system.dir/timer.c.obj
- .debug_line    0x00000000000012f1      0x27d ../../system/CMakeFiles/system.dir/uart.c.obj
- .debug_line    0x000000000000156e     0x1aa9 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
- .debug_line    0x0000000000003017      0xb55 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
- .debug_line    0x0000000000003b6c      0x239 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
- .debug_line    0x0000000000003da5      0x6ec ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
- .debug_line    0x0000000000004491      0x396 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
- .debug_line    0x0000000000004827      0xc4c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
- .debug_line    0x0000000000005473      0x62d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
- .debug_line    0x0000000000005aa0      0x741 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
- .debug_line    0x00000000000061e1       0xf5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
- .debug_line    0x00000000000062d6      0x373 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
- .debug_line    0x0000000000006649       0xc9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
- .debug_line    0x0000000000006712      0x32f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
- .debug_line    0x0000000000006a41      0x653 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
- .debug_line    0x0000000000007094      0x642 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
- .debug_line    0x00000000000076d6      0xb5f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
- .debug_line    0x0000000000008235      0x774 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
- .debug_line    0x00000000000089a9      0x52e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
- .debug_line    0x0000000000008ed7      0xe3e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
- .debug_line    0x0000000000009d15      0x9f0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
- .debug_line    0x000000000000a705     0x10a7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
- .debug_line    0x000000000000b7ac     0x182d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
- .debug_line    0x000000000000cfd9     0x2fc3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
- .debug_line    0x000000000000ff9c     0x23dd ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
- .debug_line    0x0000000000012379      0x548 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
- .debug_line    0x00000000000128c1      0x5a4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+.debug_line     0x0000000000000000    0x12e35
+ .debug_line    0x0000000000000000      0x5dc CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+ .debug_line    0x00000000000005dc      0x1bd ../../system/CMakeFiles/system.dir/delay.c.obj
+ .debug_line    0x0000000000000799      0x28a ../../system/CMakeFiles/system.dir/fifo.c.obj
+ .debug_line    0x0000000000000a23      0x250 ../../system/CMakeFiles/system.dir/gpio.c.obj
+ .debug_line    0x0000000000000c73      0x66a ../../system/CMakeFiles/system.dir/timer.c.obj
+ .debug_line    0x00000000000012dd      0x27d ../../system/CMakeFiles/system.dir/uart.c.obj
+ .debug_line    0x000000000000155a     0x1aa9 ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+ .debug_line    0x0000000000003003      0xb39 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+ .debug_line    0x0000000000003b3c      0x239 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+ .debug_line    0x0000000000003d75      0x6ec ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+ .debug_line    0x0000000000004461      0x396 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+ .debug_line    0x00000000000047f7      0xc4c ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+ .debug_line    0x0000000000005443      0x62d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+ .debug_line    0x0000000000005a70      0x741 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+ .debug_line    0x00000000000061b1       0xf5 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+ .debug_line    0x00000000000062a6      0x373 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+ .debug_line    0x0000000000006619       0xc9 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+ .debug_line    0x00000000000066e2      0x32f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+ .debug_line    0x0000000000006a11      0x653 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_line    0x0000000000007064      0x642 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_line    0x00000000000076a6      0xb5f ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_line    0x0000000000008205      0x774 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_line    0x0000000000008979      0x52e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_line    0x0000000000008ea7      0xe3e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_line    0x0000000000009ce5      0x9f0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_line    0x000000000000a6d5     0x10a7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_line    0x000000000000b77c     0x182d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_line    0x000000000000cfa9     0x2fc3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_line    0x000000000000ff6c     0x23dd ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_line    0x0000000000012349      0x548 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_line    0x0000000000012891      0x5a4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 
-.debug_str      0x0000000000000000     0x5cb0
- .debug_str     0x0000000000000000      0xb7a CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
-                                        0xd46 (size before relaxing)
- .debug_str     0x0000000000000b7a      0x1ad ../../system/CMakeFiles/system.dir/delay.c.obj
+.debug_str      0x0000000000000000     0x5c99
+ .debug_str     0x0000000000000000      0xb63 CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+                                        0xd2f (size before relaxing)
+ .debug_str     0x0000000000000b63      0x1ad ../../system/CMakeFiles/system.dir/delay.c.obj
                                         0x253 (size before relaxing)
- .debug_str     0x0000000000000d27       0xa4 ../../system/CMakeFiles/system.dir/fifo.c.obj
+ .debug_str     0x0000000000000d10       0xa4 ../../system/CMakeFiles/system.dir/fifo.c.obj
                                         0x2c9 (size before relaxing)
- .debug_str     0x0000000000000dcb      0x242 ../../system/CMakeFiles/system.dir/gpio.c.obj
+ .debug_str     0x0000000000000db4      0x242 ../../system/CMakeFiles/system.dir/gpio.c.obj
                                         0x7ae (size before relaxing)
- .debug_str     0x000000000000100d      0x2f0 ../../system/CMakeFiles/system.dir/timer.c.obj
+ .debug_str     0x0000000000000ff6      0x2f0 ../../system/CMakeFiles/system.dir/timer.c.obj
                                         0x52a (size before relaxing)
- .debug_str     0x00000000000012fd      0x2b5 ../../system/CMakeFiles/system.dir/uart.c.obj
+ .debug_str     0x00000000000012e6      0x2b5 ../../system/CMakeFiles/system.dir/uart.c.obj
                                         0x854 (size before relaxing)
- .debug_str     0x00000000000015b2      0x83b ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+ .debug_str     0x000000000000159b      0x83b ../../radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
                                        0x14d6 (size before relaxing)
- .debug_str     0x0000000000001ded      0xa23 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
-                                       0x1ae7 (size before relaxing)
- .debug_str     0x0000000000002810       0x5d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+ .debug_str     0x0000000000001dd6      0xa12 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+                                       0x1acf (size before relaxing)
+ .debug_str     0x00000000000027e8       0x5d ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
                                         0x33d (size before relaxing)
- .debug_str     0x000000000000286d      0x1df ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+ .debug_str     0x0000000000002845      0x1df ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
                                         0xc31 (size before relaxing)
- .debug_str     0x0000000000002a4c      0x106 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+ .debug_str     0x0000000000002a24      0x106 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
                                         0x4cc (size before relaxing)
- .debug_str     0x0000000000002b52      0x5d3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+ .debug_str     0x0000000000002b2a      0x5d3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
                                        0x11c8 (size before relaxing)
- .debug_str     0x0000000000003125      0x438 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+ .debug_str     0x00000000000030fd      0x438 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
                                         0xc50 (size before relaxing)
- .debug_str     0x000000000000355d      0x282 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+ .debug_str     0x0000000000003535      0x282 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
                                        0x10fb (size before relaxing)
- .debug_str     0x00000000000037df       0xa7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+ .debug_str     0x00000000000037b7       0xa7 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
                                         0x219 (size before relaxing)
- .debug_str     0x0000000000003886       0x68 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+ .debug_str     0x000000000000385e       0x68 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
                                         0x6e1 (size before relaxing)
- .debug_str     0x00000000000038ee       0x75 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+ .debug_str     0x00000000000038c6       0x75 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
                                          0xc0 (size before relaxing)
- .debug_str     0x0000000000003963       0x88 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+ .debug_str     0x000000000000393b       0x88 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
                                         0x3c6 (size before relaxing)
- .debug_str     0x00000000000039eb      0x226 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+ .debug_str     0x00000000000039c3      0x226 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
                                         0x7f7 (size before relaxing)
- .debug_str     0x0000000000003c11      0x152 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+ .debug_str     0x0000000000003be9      0x152 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
                                         0x7d1 (size before relaxing)
- .debug_str     0x0000000000003d63      0x285 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+ .debug_str     0x0000000000003d3b      0x285 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
                                         0x7a3 (size before relaxing)
- .debug_str     0x0000000000003fe8       0xda ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+ .debug_str     0x0000000000003fc0       0xda ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
                                         0x58e (size before relaxing)
- .debug_str     0x00000000000040c2      0x1c0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+ .debug_str     0x000000000000409a      0x1c0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
                                         0x53a (size before relaxing)
- .debug_str     0x0000000000004282      0x1e3 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+ .debug_str     0x000000000000425a      0x1f4 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
                                         0x7bb (size before relaxing)
- .debug_str     0x0000000000004465      0x29e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+ .debug_str     0x000000000000444e      0x29e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
                                         0x79b (size before relaxing)
- .debug_str     0x0000000000004703      0x173 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+ .debug_str     0x00000000000046ec      0x173 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
                                         0x823 (size before relaxing)
- .debug_str     0x0000000000004876      0x524 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+ .debug_str     0x000000000000485f      0x524 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
                                         0xb4d (size before relaxing)
- .debug_str     0x0000000000004d9a      0x5fc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+ .debug_str     0x0000000000004d83      0x5fc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
                                         0xd81 (size before relaxing)
- .debug_str     0x0000000000005396      0x6bc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+ .debug_str     0x000000000000537f      0x6bc ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
                                         0xf6f (size before relaxing)
- .debug_str     0x0000000000005a52      0x17e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+ .debug_str     0x0000000000005a3b      0x17e ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
                                         0x925 (size before relaxing)
- .debug_str     0x0000000000005bd0       0xe0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+ .debug_str     0x0000000000005bb9       0xe0 ../../boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
                                        0x10cd (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x38d8
