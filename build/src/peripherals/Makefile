@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/peripherals/CMakeFiles/peripherals.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/CMakeFiles/peripherals.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/peripherals/CMakeFiles/peripherals.dir/rule
 .PHONY : src/peripherals/CMakeFiles/peripherals.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ peripherals: src/peripherals/CMakeFiles/peripherals.dir/rule
 
 # fast build rule for target.
 peripherals/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/build
 .PHONY : peripherals/fast
 
 gpio-ioe.obj: gpio-ioe.c.obj
@@ -150,7 +150,7 @@ gpio-ioe.obj: gpio-ioe.c.obj
 
 # target to build an object file
 gpio-ioe.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj
 .PHONY : gpio-ioe.c.obj
 
 gpio-ioe.i: gpio-ioe.c.i
@@ -159,7 +159,7 @@ gpio-ioe.i: gpio-ioe.c.i
 
 # target to preprocess a source file
 gpio-ioe.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.i
 .PHONY : gpio-ioe.c.i
 
 gpio-ioe.s: gpio-ioe.c.s
@@ -168,7 +168,7 @@ gpio-ioe.s: gpio-ioe.c.s
 
 # target to generate assembly for a file
 gpio-ioe.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.s
 .PHONY : gpio-ioe.c.s
 
 mag3110.obj: mag3110.c.obj
@@ -177,7 +177,7 @@ mag3110.obj: mag3110.c.obj
 
 # target to build an object file
 mag3110.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj
 .PHONY : mag3110.c.obj
 
 mag3110.i: mag3110.c.i
@@ -186,7 +186,7 @@ mag3110.i: mag3110.c.i
 
 # target to preprocess a source file
 mag3110.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.i
 .PHONY : mag3110.c.i
 
 mag3110.s: mag3110.c.s
@@ -195,7 +195,7 @@ mag3110.s: mag3110.c.s
 
 # target to generate assembly for a file
 mag3110.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.s
 .PHONY : mag3110.c.s
 
 mma8451.obj: mma8451.c.obj
@@ -204,7 +204,7 @@ mma8451.obj: mma8451.c.obj
 
 # target to build an object file
 mma8451.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj
 .PHONY : mma8451.c.obj
 
 mma8451.i: mma8451.c.i
@@ -213,7 +213,7 @@ mma8451.i: mma8451.c.i
 
 # target to preprocess a source file
 mma8451.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.i
 .PHONY : mma8451.c.i
 
 mma8451.s: mma8451.c.s
@@ -222,7 +222,7 @@ mma8451.s: mma8451.c.s
 
 # target to generate assembly for a file
 mma8451.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.s
 .PHONY : mma8451.c.s
 
 mpl3115.obj: mpl3115.c.obj
@@ -231,7 +231,7 @@ mpl3115.obj: mpl3115.c.obj
 
 # target to build an object file
 mpl3115.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj
 .PHONY : mpl3115.c.obj
 
 mpl3115.i: mpl3115.c.i
@@ -240,7 +240,7 @@ mpl3115.i: mpl3115.c.i
 
 # target to preprocess a source file
 mpl3115.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.i
 .PHONY : mpl3115.c.i
 
 mpl3115.s: mpl3115.c.s
@@ -249,7 +249,7 @@ mpl3115.s: mpl3115.c.s
 
 # target to generate assembly for a file
 mpl3115.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.s
 .PHONY : mpl3115.c.s
 
 pam7q.obj: pam7q.c.obj
@@ -258,7 +258,7 @@ pam7q.obj: pam7q.c.obj
 
 # target to build an object file
 pam7q.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj
 .PHONY : pam7q.c.obj
 
 pam7q.i: pam7q.c.i
@@ -267,7 +267,7 @@ pam7q.i: pam7q.c.i
 
 # target to preprocess a source file
 pam7q.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.i
 .PHONY : pam7q.c.i
 
 pam7q.s: pam7q.c.s
@@ -276,7 +276,7 @@ pam7q.s: pam7q.c.s
 
 # target to generate assembly for a file
 pam7q.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.s
 .PHONY : pam7q.c.s
 
 soft-se/aes.obj: soft-se/aes.c.obj
@@ -285,7 +285,7 @@ soft-se/aes.obj: soft-se/aes.c.obj
 
 # target to build an object file
 soft-se/aes.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj
 .PHONY : soft-se/aes.c.obj
 
 soft-se/aes.i: soft-se/aes.c.i
@@ -294,7 +294,7 @@ soft-se/aes.i: soft-se/aes.c.i
 
 # target to preprocess a source file
 soft-se/aes.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.i
 .PHONY : soft-se/aes.c.i
 
 soft-se/aes.s: soft-se/aes.c.s
@@ -303,7 +303,7 @@ soft-se/aes.s: soft-se/aes.c.s
 
 # target to generate assembly for a file
 soft-se/aes.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.s
 .PHONY : soft-se/aes.c.s
 
 soft-se/cmac.obj: soft-se/cmac.c.obj
@@ -312,7 +312,7 @@ soft-se/cmac.obj: soft-se/cmac.c.obj
 
 # target to build an object file
 soft-se/cmac.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj
 .PHONY : soft-se/cmac.c.obj
 
 soft-se/cmac.i: soft-se/cmac.c.i
@@ -321,7 +321,7 @@ soft-se/cmac.i: soft-se/cmac.c.i
 
 # target to preprocess a source file
 soft-se/cmac.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.i
 .PHONY : soft-se/cmac.c.i
 
 soft-se/cmac.s: soft-se/cmac.c.s
@@ -330,7 +330,7 @@ soft-se/cmac.s: soft-se/cmac.c.s
 
 # target to generate assembly for a file
 soft-se/cmac.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.s
 .PHONY : soft-se/cmac.c.s
 
 soft-se/soft-se-hal.obj: soft-se/soft-se-hal.c.obj
@@ -339,7 +339,7 @@ soft-se/soft-se-hal.obj: soft-se/soft-se-hal.c.obj
 
 # target to build an object file
 soft-se/soft-se-hal.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj
 .PHONY : soft-se/soft-se-hal.c.obj
 
 soft-se/soft-se-hal.i: soft-se/soft-se-hal.c.i
@@ -348,7 +348,7 @@ soft-se/soft-se-hal.i: soft-se/soft-se-hal.c.i
 
 # target to preprocess a source file
 soft-se/soft-se-hal.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.i
 .PHONY : soft-se/soft-se-hal.c.i
 
 soft-se/soft-se-hal.s: soft-se/soft-se-hal.c.s
@@ -357,7 +357,7 @@ soft-se/soft-se-hal.s: soft-se/soft-se-hal.c.s
 
 # target to generate assembly for a file
 soft-se/soft-se-hal.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.s
 .PHONY : soft-se/soft-se-hal.c.s
 
 soft-se/soft-se.obj: soft-se/soft-se.c.obj
@@ -366,7 +366,7 @@ soft-se/soft-se.obj: soft-se/soft-se.c.obj
 
 # target to build an object file
 soft-se/soft-se.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj
 .PHONY : soft-se/soft-se.c.obj
 
 soft-se/soft-se.i: soft-se/soft-se.c.i
@@ -375,7 +375,7 @@ soft-se/soft-se.i: soft-se/soft-se.c.i
 
 # target to preprocess a source file
 soft-se/soft-se.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.i
 .PHONY : soft-se/soft-se.c.i
 
 soft-se/soft-se.s: soft-se/soft-se.c.s
@@ -384,7 +384,7 @@ soft-se/soft-se.s: soft-se/soft-se.c.s
 
 # target to generate assembly for a file
 soft-se/soft-se.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.s
 .PHONY : soft-se/soft-se.c.s
 
 sx1509.obj: sx1509.c.obj
@@ -393,7 +393,7 @@ sx1509.obj: sx1509.c.obj
 
 # target to build an object file
 sx1509.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj
 .PHONY : sx1509.c.obj
 
 sx1509.i: sx1509.c.i
@@ -402,7 +402,7 @@ sx1509.i: sx1509.c.i
 
 # target to preprocess a source file
 sx1509.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.i
 .PHONY : sx1509.c.i
 
 sx1509.s: sx1509.c.s
@@ -411,7 +411,7 @@ sx1509.s: sx1509.c.s
 
 # target to generate assembly for a file
 sx1509.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.s
 .PHONY : sx1509.c.s
 
 sx9500.obj: sx9500.c.obj
@@ -420,7 +420,7 @@ sx9500.obj: sx9500.c.obj
 
 # target to build an object file
 sx9500.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj
 .PHONY : sx9500.c.obj
 
 sx9500.i: sx9500.c.i
@@ -429,7 +429,7 @@ sx9500.i: sx9500.c.i
 
 # target to preprocess a source file
 sx9500.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.i
 .PHONY : sx9500.c.i
 
 sx9500.s: sx9500.c.s
@@ -438,7 +438,7 @@ sx9500.s: sx9500.c.s
 
 # target to generate assembly for a file
 sx9500.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/peripherals/CMakeFiles/peripherals.dir/build.make src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.s
 .PHONY : sx9500.c.s
 
 # Help Target
@@ -494,6 +494,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

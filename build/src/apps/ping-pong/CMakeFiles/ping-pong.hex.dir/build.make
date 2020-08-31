@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 # Utility rule file for ping-pong.hex.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
 include src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/progress.make
 
 src/apps/ping-pong/CMakeFiles/ping-pong.hex: src/apps/ping-pong/ping-pong
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-objcopy -Oihex ping-pong ping-pong.hex
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-objcopy -Oihex ping-pong ping-pong.hex
 
 ping-pong.hex: src/apps/ping-pong/CMakeFiles/ping-pong.hex
 ping-pong.hex: src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build.make
@@ -86,10 +86,10 @@ src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build: ping-pong.hex
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build
 
 src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && $(CMAKE_COMMAND) -P CMakeFiles/ping-pong.hex.dir/cmake_clean.cmake
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && $(CMAKE_COMMAND) -P CMakeFiles/ping-pong.hex.dir/cmake_clean.cmake
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/clean
 
 src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jimmy/Documents/GitHub/LoRaMac-node /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node/build /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jimmy/Documents/GitHub/LoRaMac-node-JY /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/depend
 

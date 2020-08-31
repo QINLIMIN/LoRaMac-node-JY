@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/rule
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ ping-pong.hex: src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/rule
 
 # fast build rule for target.
 ping-pong.hex/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.hex.dir/build
 .PHONY : ping-pong.hex/fast
 
 # Convenience name for target.
 src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/rule
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/rule
 
 # Convenience name for target.
@@ -156,12 +156,12 @@ ping-pong.bin: src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/rule
 
 # fast build rule for target.
 ping-pong.bin/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.bin.dir/build
 .PHONY : ping-pong.bin/fast
 
 # Convenience name for target.
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/ping-pong/CMakeFiles/ping-pong.dir/rule
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ ping-pong: src/apps/ping-pong/CMakeFiles/ping-pong.dir/rule
 
 # fast build rule for target.
 ping-pong/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/build
 .PHONY : ping-pong/fast
 
 GC7818-F072/main.obj: GC7818-F072/main.c.obj
@@ -180,7 +180,7 @@ GC7818-F072/main.obj: GC7818-F072/main.c.obj
 
 # target to build an object file
 GC7818-F072/main.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
 .PHONY : GC7818-F072/main.c.obj
 
 GC7818-F072/main.i: GC7818-F072/main.c.i
@@ -189,7 +189,7 @@ GC7818-F072/main.i: GC7818-F072/main.c.i
 
 # target to preprocess a source file
 GC7818-F072/main.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i
 .PHONY : GC7818-F072/main.c.i
 
 GC7818-F072/main.s: GC7818-F072/main.c.s
@@ -198,7 +198,7 @@ GC7818-F072/main.s: GC7818-F072/main.c.s
 
 # target to generate assembly for a file
 GC7818-F072/main.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s
 .PHONY : GC7818-F072/main.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

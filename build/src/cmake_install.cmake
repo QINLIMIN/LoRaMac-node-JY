@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jimmy/Documents/GitHub/LoRaMac-node/src
+# Install script for directory: /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/radio/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/mac/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/cmake_install.cmake")
-  include("/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/radio/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/mac/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/cmake_install.cmake")
+  include("/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong/cmake_install.cmake")
 
 endif()
 

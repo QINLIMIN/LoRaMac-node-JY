@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/radio//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/radio//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/radio/CMakeFiles/radio.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/CMakeFiles/radio.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/radio/CMakeFiles/radio.dir/rule
 .PHONY : src/radio/CMakeFiles/radio.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ radio: src/radio/CMakeFiles/radio.dir/rule
 
 # fast build rule for target.
 radio/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/build
 .PHONY : radio/fast
 
 sx1276/sx1276.obj: sx1276/sx1276.c.obj
@@ -150,7 +150,7 @@ sx1276/sx1276.obj: sx1276/sx1276.c.obj
 
 # target to build an object file
 sx1276/sx1276.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
 .PHONY : sx1276/sx1276.c.obj
 
 sx1276/sx1276.i: sx1276/sx1276.c.i
@@ -159,7 +159,7 @@ sx1276/sx1276.i: sx1276/sx1276.c.i
 
 # target to preprocess a source file
 sx1276/sx1276.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.i
 .PHONY : sx1276/sx1276.c.i
 
 sx1276/sx1276.s: sx1276/sx1276.c.s
@@ -168,7 +168,7 @@ sx1276/sx1276.s: sx1276/sx1276.c.s
 
 # target to generate assembly for a file
 sx1276/sx1276.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/radio/CMakeFiles/radio.dir/build.make src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.s
 .PHONY : sx1276/sx1276.c.s
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

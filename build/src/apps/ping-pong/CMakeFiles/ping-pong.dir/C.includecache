@@ -46,7 +46,7 @@ stdbool.h
 stdint.h
 -
 
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c
 stdio.h
 -
 string.h
@@ -54,13 +54,13 @@ string.h
 stdlib.h
 -
 board.h
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/board.h
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/board.h
 gpio.h
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/gpio.h
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/gpio.h
 delay.h
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/delay.h
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/delay.h
 timer.h
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/timer.h
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/timer.h
 radio.h
-/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/radio.h
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/radio.h
 

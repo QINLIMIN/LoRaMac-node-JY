@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rule
 .PHONY : src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ GC7818-F072: src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rule
 
 # fast build rule for target.
 GC7818-F072/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build
 .PHONY : GC7818-F072/fast
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
@@ -150,7 +150,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.obj: __/mcu/stm32/STM32F0xx_
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.i
@@ -159,7 +159,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.i: __/mcu/stm32/STM32F0xx_HA
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.s
@@ -168,7 +168,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.s: __/mcu/stm32/STM32F0xx_HA
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
@@ -177,7 +177,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.i
@@ -186,7 +186,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.s
@@ -195,7 +195,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
@@ -204,7 +204,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.i
@@ -213,7 +213,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.s
@@ -222,7 +222,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
@@ -231,7 +231,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.i
@@ -240,7 +240,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.s
@@ -249,7 +249,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
@@ -258,7 +258,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.i
@@ -267,7 +267,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.s
@@ -276,7 +276,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
@@ -285,7 +285,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.obj: __/mcu/stm32/STM3
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.i
@@ -294,7 +294,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.i: __/mcu/stm32/STM32F
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.s
@@ -303,7 +303,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.s: __/mcu/stm32/STM32F
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
@@ -312,7 +312,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.obj: __/mcu/stm32/S
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.i
@@ -321,7 +321,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.i: __/mcu/stm32/STM
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.s
@@ -330,7 +330,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.s: __/mcu/stm32/STM
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
@@ -339,7 +339,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.obj: __/mcu/stm32/STM32
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.i
@@ -348,7 +348,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.i: __/mcu/stm32/STM32F0
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.s
@@ -357,7 +357,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.s: __/mcu/stm32/STM32F0
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
@@ -366,7 +366,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.i
@@ -375,7 +375,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.s
@@ -384,7 +384,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
@@ -393,7 +393,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.i
@@ -402,7 +402,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.s
@@ -411,7 +411,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
@@ -420,7 +420,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.i
@@ -429,7 +429,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.s
@@ -438,7 +438,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
@@ -447,7 +447,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.i
@@ -456,7 +456,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.s
@@ -465,7 +465,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
@@ -474,7 +474,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.i
@@ -483,7 +483,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.s
@@ -492,7 +492,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
@@ -501,7 +501,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.i
@@ -510,7 +510,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.s
@@ -519,7 +519,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
@@ -528,7 +528,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.i
@@ -537,7 +537,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.s
@@ -546,7 +546,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
@@ -555,7 +555,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.obj: __/mcu/stm32/STM
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.i
@@ -564,7 +564,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.i: __/mcu/stm32/STM32
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.s
@@ -573,7 +573,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.s: __/mcu/stm32/STM32
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
@@ -582,7 +582,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.i
@@ -591,7 +591,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.s
@@ -600,7 +600,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
@@ -609,7 +609,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.obj: __/mcu/stm32/STM32F
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.i
@@ -618,7 +618,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.i: __/mcu/stm32/STM32F0x
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.s
@@ -627,7 +627,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.s: __/mcu/stm32/STM32F0x
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
@@ -636,7 +636,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.obj: __/mcu/stm32/STM32
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.i
@@ -645,7 +645,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.i: __/mcu/stm32/STM32F0
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.s
@@ -654,7 +654,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.s: __/mcu/stm32/STM32F0
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.s
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.obj: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
@@ -663,7 +663,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.obj: __/mcu/stm32/ST
 
 # target to build an object file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.i: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.i
@@ -672,7 +672,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.i: __/mcu/stm32/STM3
 
 # target to preprocess a source file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.i
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.i
 
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.s: __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.s
@@ -681,7 +681,7 @@ __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.s: __/mcu/stm32/STM3
 
 # target to generate assembly for a file
 __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.s
 .PHONY : __/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.s
 
 __/mcu/stm32/sysIrqHandlers.obj: __/mcu/stm32/sysIrqHandlers.c.obj
@@ -690,7 +690,7 @@ __/mcu/stm32/sysIrqHandlers.obj: __/mcu/stm32/sysIrqHandlers.c.obj
 
 # target to build an object file
 __/mcu/stm32/sysIrqHandlers.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj
 .PHONY : __/mcu/stm32/sysIrqHandlers.c.obj
 
 __/mcu/stm32/sysIrqHandlers.i: __/mcu/stm32/sysIrqHandlers.c.i
@@ -699,7 +699,7 @@ __/mcu/stm32/sysIrqHandlers.i: __/mcu/stm32/sysIrqHandlers.c.i
 
 # target to preprocess a source file
 __/mcu/stm32/sysIrqHandlers.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.i
 .PHONY : __/mcu/stm32/sysIrqHandlers.c.i
 
 __/mcu/stm32/sysIrqHandlers.s: __/mcu/stm32/sysIrqHandlers.c.s
@@ -708,7 +708,7 @@ __/mcu/stm32/sysIrqHandlers.s: __/mcu/stm32/sysIrqHandlers.c.s
 
 # target to generate assembly for a file
 __/mcu/stm32/sysIrqHandlers.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.s
 .PHONY : __/mcu/stm32/sysIrqHandlers.c.s
 
 __/mcu/utilities.obj: __/mcu/utilities.c.obj
@@ -717,7 +717,7 @@ __/mcu/utilities.obj: __/mcu/utilities.c.obj
 
 # target to build an object file
 __/mcu/utilities.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj
 .PHONY : __/mcu/utilities.c.obj
 
 __/mcu/utilities.i: __/mcu/utilities.c.i
@@ -726,7 +726,7 @@ __/mcu/utilities.i: __/mcu/utilities.c.i
 
 # target to preprocess a source file
 __/mcu/utilities.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.i
 .PHONY : __/mcu/utilities.c.i
 
 __/mcu/utilities.s: __/mcu/utilities.c.s
@@ -735,7 +735,7 @@ __/mcu/utilities.s: __/mcu/utilities.c.s
 
 # target to generate assembly for a file
 __/mcu/utilities.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.s
 .PHONY : __/mcu/utilities.c.s
 
 adc-board.obj: adc-board.c.obj
@@ -744,7 +744,7 @@ adc-board.obj: adc-board.c.obj
 
 # target to build an object file
 adc-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj
 .PHONY : adc-board.c.obj
 
 adc-board.i: adc-board.c.i
@@ -753,7 +753,7 @@ adc-board.i: adc-board.c.i
 
 # target to preprocess a source file
 adc-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.i
 .PHONY : adc-board.c.i
 
 adc-board.s: adc-board.c.s
@@ -762,7 +762,7 @@ adc-board.s: adc-board.c.s
 
 # target to generate assembly for a file
 adc-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.s
 .PHONY : adc-board.c.s
 
 board.obj: board.c.obj
@@ -771,7 +771,7 @@ board.obj: board.c.obj
 
 # target to build an object file
 board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj
 .PHONY : board.c.obj
 
 board.i: board.c.i
@@ -780,7 +780,7 @@ board.i: board.c.i
 
 # target to preprocess a source file
 board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.i
 .PHONY : board.c.i
 
 board.s: board.c.s
@@ -789,7 +789,7 @@ board.s: board.c.s
 
 # target to generate assembly for a file
 board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.s
 .PHONY : board.c.s
 
 cmsis/arm-gcc/startup_stm32f0xx.obj: cmsis/arm-gcc/startup_stm32f0xx.s.obj
@@ -798,7 +798,7 @@ cmsis/arm-gcc/startup_stm32f0xx.obj: cmsis/arm-gcc/startup_stm32f0xx.s.obj
 
 # target to build an object file
 cmsis/arm-gcc/startup_stm32f0xx.s.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj
 .PHONY : cmsis/arm-gcc/startup_stm32f0xx.s.obj
 
 cmsis/system_stm32f0xx.obj: cmsis/system_stm32f0xx.c.obj
@@ -807,7 +807,7 @@ cmsis/system_stm32f0xx.obj: cmsis/system_stm32f0xx.c.obj
 
 # target to build an object file
 cmsis/system_stm32f0xx.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj
 .PHONY : cmsis/system_stm32f0xx.c.obj
 
 cmsis/system_stm32f0xx.i: cmsis/system_stm32f0xx.c.i
@@ -816,7 +816,7 @@ cmsis/system_stm32f0xx.i: cmsis/system_stm32f0xx.c.i
 
 # target to preprocess a source file
 cmsis/system_stm32f0xx.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.i
 .PHONY : cmsis/system_stm32f0xx.c.i
 
 cmsis/system_stm32f0xx.s: cmsis/system_stm32f0xx.c.s
@@ -825,7 +825,7 @@ cmsis/system_stm32f0xx.s: cmsis/system_stm32f0xx.c.s
 
 # target to generate assembly for a file
 cmsis/system_stm32f0xx.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.s
 .PHONY : cmsis/system_stm32f0xx.c.s
 
 delay-board.obj: delay-board.c.obj
@@ -834,7 +834,7 @@ delay-board.obj: delay-board.c.obj
 
 # target to build an object file
 delay-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj
 .PHONY : delay-board.c.obj
 
 delay-board.i: delay-board.c.i
@@ -843,7 +843,7 @@ delay-board.i: delay-board.c.i
 
 # target to preprocess a source file
 delay-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.i
 .PHONY : delay-board.c.i
 
 delay-board.s: delay-board.c.s
@@ -852,7 +852,7 @@ delay-board.s: delay-board.c.s
 
 # target to generate assembly for a file
 delay-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.s
 .PHONY : delay-board.c.s
 
 gpio-board.obj: gpio-board.c.obj
@@ -861,7 +861,7 @@ gpio-board.obj: gpio-board.c.obj
 
 # target to build an object file
 gpio-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj
 .PHONY : gpio-board.c.obj
 
 gpio-board.i: gpio-board.c.i
@@ -870,7 +870,7 @@ gpio-board.i: gpio-board.c.i
 
 # target to preprocess a source file
 gpio-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.i
 .PHONY : gpio-board.c.i
 
 gpio-board.s: gpio-board.c.s
@@ -879,7 +879,7 @@ gpio-board.s: gpio-board.c.s
 
 # target to generate assembly for a file
 gpio-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.s
 .PHONY : gpio-board.c.s
 
 i2c-board.obj: i2c-board.c.obj
@@ -888,7 +888,7 @@ i2c-board.obj: i2c-board.c.obj
 
 # target to build an object file
 i2c-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.obj
 .PHONY : i2c-board.c.obj
 
 i2c-board.i: i2c-board.c.i
@@ -897,7 +897,7 @@ i2c-board.i: i2c-board.c.i
 
 # target to preprocess a source file
 i2c-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.i
 .PHONY : i2c-board.c.i
 
 i2c-board.s: i2c-board.c.s
@@ -906,7 +906,7 @@ i2c-board.s: i2c-board.c.s
 
 # target to generate assembly for a file
 i2c-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.s
 .PHONY : i2c-board.c.s
 
 lpm-board.obj: lpm-board.c.obj
@@ -915,7 +915,7 @@ lpm-board.obj: lpm-board.c.obj
 
 # target to build an object file
 lpm-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj
 .PHONY : lpm-board.c.obj
 
 lpm-board.i: lpm-board.c.i
@@ -924,7 +924,7 @@ lpm-board.i: lpm-board.c.i
 
 # target to preprocess a source file
 lpm-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.i
 .PHONY : lpm-board.c.i
 
 lpm-board.s: lpm-board.c.s
@@ -933,7 +933,7 @@ lpm-board.s: lpm-board.c.s
 
 # target to generate assembly for a file
 lpm-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.s
 .PHONY : lpm-board.c.s
 
 rtc-board.obj: rtc-board.c.obj
@@ -942,7 +942,7 @@ rtc-board.obj: rtc-board.c.obj
 
 # target to build an object file
 rtc-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj
 .PHONY : rtc-board.c.obj
 
 rtc-board.i: rtc-board.c.i
@@ -951,7 +951,7 @@ rtc-board.i: rtc-board.c.i
 
 # target to preprocess a source file
 rtc-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.i
 .PHONY : rtc-board.c.i
 
 rtc-board.s: rtc-board.c.s
@@ -960,7 +960,7 @@ rtc-board.s: rtc-board.c.s
 
 # target to generate assembly for a file
 rtc-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.s
 .PHONY : rtc-board.c.s
 
 spi-board.obj: spi-board.c.obj
@@ -969,7 +969,7 @@ spi-board.obj: spi-board.c.obj
 
 # target to build an object file
 spi-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj
 .PHONY : spi-board.c.obj
 
 spi-board.i: spi-board.c.i
@@ -978,7 +978,7 @@ spi-board.i: spi-board.c.i
 
 # target to preprocess a source file
 spi-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.i
 .PHONY : spi-board.c.i
 
 spi-board.s: spi-board.c.s
@@ -987,7 +987,7 @@ spi-board.s: spi-board.c.s
 
 # target to generate assembly for a file
 spi-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.s
 .PHONY : spi-board.c.s
 
 sx1276mb1las-board.obj: sx1276mb1las-board.c.obj
@@ -996,7 +996,7 @@ sx1276mb1las-board.obj: sx1276mb1las-board.c.obj
 
 # target to build an object file
 sx1276mb1las-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 .PHONY : sx1276mb1las-board.c.obj
 
 sx1276mb1las-board.i: sx1276mb1las-board.c.i
@@ -1005,7 +1005,7 @@ sx1276mb1las-board.i: sx1276mb1las-board.c.i
 
 # target to preprocess a source file
 sx1276mb1las-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.i
 .PHONY : sx1276mb1las-board.c.i
 
 sx1276mb1las-board.s: sx1276mb1las-board.c.s
@@ -1014,7 +1014,7 @@ sx1276mb1las-board.s: sx1276mb1las-board.c.s
 
 # target to generate assembly for a file
 sx1276mb1las-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.s
 .PHONY : sx1276mb1las-board.c.s
 
 uart-board.obj: uart-board.c.obj
@@ -1023,7 +1023,7 @@ uart-board.obj: uart-board.c.obj
 
 # target to build an object file
 uart-board.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj
 .PHONY : uart-board.c.obj
 
 uart-board.i: uart-board.c.i
@@ -1032,7 +1032,7 @@ uart-board.i: uart-board.c.i
 
 # target to preprocess a source file
 uart-board.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.i
 .PHONY : uart-board.c.i
 
 uart-board.s: uart-board.c.s
@@ -1041,7 +1041,7 @@ uart-board.s: uart-board.c.s
 
 # target to generate assembly for a file
 uart-board.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/build.make src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.s
 .PHONY : uart-board.c.s
 
 # Help Target
@@ -1164,6 +1164,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

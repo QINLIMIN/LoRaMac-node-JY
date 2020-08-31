@@ -6,3 +6,5 @@
 
 #IncludeRegexTransform: 
 
+/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/cmsis/arm-gcc/startup_stm32f0xx.s
+

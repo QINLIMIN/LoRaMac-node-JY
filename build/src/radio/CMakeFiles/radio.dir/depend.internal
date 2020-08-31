@@ -12,7 +12,7 @@ src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj
  ../src/system/gpio.h
  ../src/system/spi.h
  ../src/system/timer.h
- /Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276.c
- /Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276.h
- /Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276Regs-Fsk.h
- /Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276Regs-LoRa.h
+ /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276.c
+ /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276.h
+ /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276Regs-Fsk.h
+ /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276Regs-LoRa.h

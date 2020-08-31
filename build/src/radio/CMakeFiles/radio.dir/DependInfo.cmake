@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

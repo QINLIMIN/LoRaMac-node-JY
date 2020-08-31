@@ -154,7 +154,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Og -g -DDEBUG"
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -std=gnu99  -Os"
 				},
 				{
 					"fragment" : "-std=gnu11"
@@ -183,63 +183,63 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/cmsis"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32/cmsis"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/system"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/system/crypto"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/mac"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/mac/region"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276_driver/src"
 				}
 			],
 			"language" : "C",
@@ -284,7 +284,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -x assembler-with-cpp  -g"
+					"fragment" : "-Og -g -mthumb -g2 -fno-builtin -mcpu=cortex-m0plus -Wall -Wextra -pedantic -Wno-unused-parameter -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -fno-unroll-loops -ffast-math -ftree-vectorize -x assembler-with-cpp "
 				}
 			],
 			"defines" : 
@@ -310,63 +310,63 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/cmsis"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/cmsis"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32/cmsis"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/../mcu/stm32/STM32F0xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/system"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system/crypto"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/system/crypto"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/mac"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac/region"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/mac/region"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio/sx1276/sx1276_driver/src"
+					"path" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio/sx1276/sx1276_driver/src"
 				}
 			],
 			"language" : "ASM",

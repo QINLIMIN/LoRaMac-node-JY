@@ -10,4 +10,4 @@ src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
  ../src/system/delay.h
  ../src/system/gpio.h
  ../src/system/timer.h
- /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c
+ /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c

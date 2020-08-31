@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

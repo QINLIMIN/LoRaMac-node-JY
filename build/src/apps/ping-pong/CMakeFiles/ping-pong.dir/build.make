@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 # Include any dependencies generated for this target.
 include src/apps/ping-pong/CMakeFiles/ping-pong.dir/depend.make
@@ -78,16 +78,16 @@ include src/apps/ping-pong/CMakeFiles/ping-pong.dir/flags.make
 
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj: src/apps/ping-pong/CMakeFiles/ping-pong.dir/flags.make
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj: ../src/apps/ping-pong/GC7818-F072/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj"
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj -c /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj"
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj -c /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c
 
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i"
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c > CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c > CMakeFiles/ping-pong.dir/GC7818-F072/main.c.i
 
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s"
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong/GC7818-F072/main.c -o CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong/GC7818-F072/main.c -o CMakeFiles/ping-pong.dir/GC7818-F072/main.c.s
 
 # Object files for target ping-pong
 ping__pong_OBJECTS = \
@@ -95,63 +95,63 @@ ping__pong_OBJECTS = \
 
 # External object files for target ping-pong
 ping__pong_EXTERNAL_OBJECTS = \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/adc.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/delay.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/eeprom.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/fifo.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/gpio.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/gps.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/i2c.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/nvmm.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/systime.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/timer.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system/CMakeFiles/system.dir/uart.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj" \
-"/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj"
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/adc.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/delay.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/eeprom.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/fifo.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/gpio.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/gps.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/i2c.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/nvmm.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/systime.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/timer.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system/CMakeFiles/system.dir/uart.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/radio/CMakeFiles/radio.dir/sx1276/sx1276.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/adc-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/delay-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/gpio-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/i2c-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/lpm-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/rtc-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/spi-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/uart-board.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/sysIrqHandlers.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/utilities.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/arm-gcc/startup_stm32f0xx.s.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/cmsis/system_stm32f0xx.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/__/mcu/stm32/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj" \
+"/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj"
 
 src/apps/ping-pong/ping-pong: src/apps/ping-pong/CMakeFiles/ping-pong.dir/GC7818-F072/main.c.obj
 src/apps/ping-pong/ping-pong: src/system/CMakeFiles/system.dir/adc.c.obj
@@ -213,9 +213,9 @@ src/apps/ping-pong/ping-pong: src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/
 src/apps/ping-pong/ping-pong: src/boards/GC7818-F072/CMakeFiles/GC7818-F072.dir/sx1276mb1las-board.c.obj
 src/apps/ping-pong/ping-pong: src/apps/ping-pong/CMakeFiles/ping-pong.dir/build.make
 src/apps/ping-pong/ping-pong: src/apps/ping-pong/CMakeFiles/ping-pong.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ping-pong"
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ping-pong.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-size ping-pong
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ping-pong"
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ping-pong.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && /usr/local/bin/arm-none-eabi-size ping-pong
 
 # Rule to build all files generated by this target.
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/build: src/apps/ping-pong/ping-pong
@@ -223,10 +223,10 @@ src/apps/ping-pong/CMakeFiles/ping-pong.dir/build: src/apps/ping-pong/ping-pong
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.dir/build
 
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong && $(CMAKE_COMMAND) -P CMakeFiles/ping-pong.dir/cmake_clean.cmake
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong && $(CMAKE_COMMAND) -P CMakeFiles/ping-pong.dir/cmake_clean.cmake
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.dir/clean
 
 src/apps/ping-pong/CMakeFiles/ping-pong.dir/depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jimmy/Documents/GitHub/LoRaMac-node /Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node/build /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong/CMakeFiles/ping-pong.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jimmy/Documents/GitHub/LoRaMac-node-JY /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong/CMakeFiles/ping-pong.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/apps/ping-pong/CMakeFiles/ping-pong.dir/depend
 

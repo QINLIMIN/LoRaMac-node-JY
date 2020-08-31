@@ -235,7 +235,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -247,7 +247,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -639,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-Wl,--gc-sections --specs=nano.specs --specs=nosys.specs -mthumb -g2 -mcpu=cortex-m0plus -mabi=aapcs -T/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072/cmsis/arm-gcc/stm32f072xx_flash.ld -Wl,-Map=loramac-node.map"
+			"value" : "-Wl,--gc-sections --specs=nano.specs --specs=nosys.specs -mthumb -g2 -mcpu=cortex-m0plus -mabi=aapcs -T/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072/cmsis/arm-gcc/stm32f072xx_flash.ld -Wl,-Map=loramac-node.map"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -787,7 +787,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,11 +1279,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "STRING",
-			"value" : "cmake/toolchain-arm-none-eabi.cmake"
+			"type" : "FILEPATH",
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/cmake/toolchain-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1314,30 +1314,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "GC7818-072_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072"
-		},
-		{
-			"name" : "GC7818-072_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
-		},
-		{
 			"name" : "GC7818-F072_BINARY_DIR",
 			"properties" : 
 			[
@@ -1347,7 +1323,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/GC7818-F072"
 		},
 		{
 			"name" : "GC7818-F072_SOURCE_DIR",
@@ -1359,31 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
-		},
-		{
-			"name" : "LoRaNodeV02_F072_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/GC7818-F072"
-		},
-		{
-			"name" : "LoRaNodeV02_F072_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/GC7818-F072"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072"
 		},
 		{
 			"name" : "MBED_RADIO_SHIELD",
@@ -1416,30 +1368,6 @@
 			],
 			"type" : "STRING",
 			"value" : "LORA"
-		},
-		{
-			"name" : "NucleoL073_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards/NucleoL073"
-		},
-		{
-			"name" : "NucleoL073_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards/NucleoL073"
 		},
 		{
 			"name" : "OPENOCD_BIN",
@@ -1743,7 +1671,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/boards"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards"
 		},
 		{
 			"name" : "board_SOURCE_DIR",
@@ -1755,7 +1683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/boards"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards"
 		},
 		{
 			"name" : "lora-mac_BINARY_DIR",
@@ -1767,7 +1695,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src"
 		},
 		{
 			"name" : "lora-mac_SOURCE_DIR",
@@ -1779,7 +1707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src"
 		},
 		{
 			"name" : "loramac-node_BINARY_DIR",
@@ -1791,7 +1719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build"
 		},
 		{
 			"name" : "loramac-node_SOURCE_DIR",
@@ -1803,7 +1731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY"
 		},
 		{
 			"name" : "mac_BINARY_DIR",
@@ -1815,7 +1743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/mac"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/mac"
 		},
 		{
 			"name" : "mac_SOURCE_DIR",
@@ -1827,7 +1755,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/mac"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/mac"
 		},
 		{
 			"name" : "peripherals_BINARY_DIR",
@@ -1839,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals"
 		},
 		{
 			"name" : "peripherals_SOURCE_DIR",
@@ -1851,7 +1779,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals"
 		},
 		{
 			"name" : "ping-pong_BINARY_DIR",
@@ -1863,7 +1791,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/ping-pong"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/ping-pong"
 		},
 		{
 			"name" : "ping-pong_SOURCE_DIR",
@@ -1875,7 +1803,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/apps/ping-pong"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/ping-pong"
 		},
 		{
 			"name" : "radio_BINARY_DIR",
@@ -1887,7 +1815,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/radio"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/radio"
 		},
 		{
 			"name" : "radio_SOURCE_DIR",
@@ -1899,7 +1827,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/radio"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/radio"
 		},
 		{
 			"name" : "system_BINARY_DIR",
@@ -1911,7 +1839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/system"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/system"
 		},
 		{
 			"name" : "system_SOURCE_DIR",
@@ -1923,7 +1851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/system"
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/system"
 		}
 	],
 	"kind" : "cache",

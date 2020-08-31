@@ -134,7 +134,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -254,56 +254,56 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "GC7818-F072::@815196990424b72381c5",
-					"jsonFile" : "target-GC7818-F072-Debug-d18222f2b1b61b27512f.json",
+					"jsonFile" : "target-GC7818-F072-Release-f8f13f0040cb166ee5fe.json",
 					"name" : "GC7818-F072",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "mac::@b71de4dc60f86771f8aa",
-					"jsonFile" : "target-mac-Debug-7cf20bf93b2ed4069539.json",
+					"jsonFile" : "target-mac-Release-b865451237c4471131e4.json",
 					"name" : "mac",
 					"projectIndex" : 6
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "peripherals::@ee2d624c87d677ab9684",
-					"jsonFile" : "target-peripherals-Debug-37da8c2f6b895d2d5534.json",
+					"jsonFile" : "target-peripherals-Release-690de4f8367e612f6579.json",
 					"name" : "peripherals",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "ping-pong::@fe9f01a4628cccf37d86",
-					"jsonFile" : "target-ping-pong-Debug-54c76887df50172b88c9.json",
+					"jsonFile" : "target-ping-pong-Release-1e2081635da89bf9e4cd.json",
 					"name" : "ping-pong",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "ping-pong.bin::@fe9f01a4628cccf37d86",
-					"jsonFile" : "target-ping-pong.bin-Debug-650a7e8a6b77e8b04947.json",
+					"jsonFile" : "target-ping-pong.bin-Release-650a7e8a6b77e8b04947.json",
 					"name" : "ping-pong.bin",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "ping-pong.hex::@fe9f01a4628cccf37d86",
-					"jsonFile" : "target-ping-pong.hex-Debug-75a5d92f1302a91c5298.json",
+					"jsonFile" : "target-ping-pong.hex-Release-75a5d92f1302a91c5298.json",
 					"name" : "ping-pong.hex",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "radio::@26d2dcfc059b4acd1cf9",
-					"jsonFile" : "target-radio-Debug-aaac99b497353000423b.json",
+					"jsonFile" : "target-radio-Release-61ea4b3e4c3d51a586ca.json",
 					"name" : "radio",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "system::@5ecf6b6503b51008465a",
-					"jsonFile" : "target-system-Debug-a652519012358f6a234f.json",
+					"jsonFile" : "target-system-Release-65d05cf3b22e22340352.json",
 					"name" : "system",
 					"projectIndex" : 5
 				}
@@ -313,8 +313,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jimmy/Documents/GitHub/LoRaMac-node/build",
-		"source" : "/Users/jimmy/Documents/GitHub/LoRaMac-node"
+		"build" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build",
+		"source" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY"
 	},
 	"version" : 
 	{

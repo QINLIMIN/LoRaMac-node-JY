@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/gpio-ioe.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/mag3110.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/mma8451.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/mpl3115.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/pam7q.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se/aes.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se/cmac.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se/soft-se-hal.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/soft-se/soft-se.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/sx1509.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj"
-  "/Users/jimmy/Documents/GitHub/LoRaMac-node/src/peripherals/sx9500.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/gpio-ioe.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/gpio-ioe.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/mag3110.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mag3110.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/mma8451.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mma8451.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/mpl3115.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/mpl3115.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/pam7q.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/pam7q.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se/aes.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/aes.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se/cmac.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/cmac.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se/soft-se-hal.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se-hal.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/soft-se/soft-se.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/soft-se/soft-se.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/sx1509.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/sx1509.c.obj"
+  "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/peripherals/sx9500.c" "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/peripherals/CMakeFiles/peripherals.dir/sx9500.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

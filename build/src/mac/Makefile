@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/mac//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/mac//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/mac/CMakeFiles/mac.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/CMakeFiles/mac.dir/rule
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/mac/CMakeFiles/mac.dir/rule
 .PHONY : src/mac/CMakeFiles/mac.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ mac: src/mac/CMakeFiles/mac.dir/rule
 
 # fast build rule for target.
 mac/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/build
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/build
 .PHONY : mac/fast
 
 LoRaMac.obj: LoRaMac.c.obj
@@ -150,7 +150,7 @@ LoRaMac.obj: LoRaMac.c.obj
 
 # target to build an object file
 LoRaMac.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.obj
 .PHONY : LoRaMac.c.obj
 
 LoRaMac.i: LoRaMac.c.i
@@ -159,7 +159,7 @@ LoRaMac.i: LoRaMac.c.i
 
 # target to preprocess a source file
 LoRaMac.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.i
 .PHONY : LoRaMac.c.i
 
 LoRaMac.s: LoRaMac.c.s
@@ -168,7 +168,7 @@ LoRaMac.s: LoRaMac.c.s
 
 # target to generate assembly for a file
 LoRaMac.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMac.c.s
 .PHONY : LoRaMac.c.s
 
 LoRaMacAdr.obj: LoRaMacAdr.c.obj
@@ -177,7 +177,7 @@ LoRaMacAdr.obj: LoRaMacAdr.c.obj
 
 # target to build an object file
 LoRaMacAdr.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.obj
 .PHONY : LoRaMacAdr.c.obj
 
 LoRaMacAdr.i: LoRaMacAdr.c.i
@@ -186,7 +186,7 @@ LoRaMacAdr.i: LoRaMacAdr.c.i
 
 # target to preprocess a source file
 LoRaMacAdr.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.i
 .PHONY : LoRaMacAdr.c.i
 
 LoRaMacAdr.s: LoRaMacAdr.c.s
@@ -195,7 +195,7 @@ LoRaMacAdr.s: LoRaMacAdr.c.s
 
 # target to generate assembly for a file
 LoRaMacAdr.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacAdr.c.s
 .PHONY : LoRaMacAdr.c.s
 
 LoRaMacClassB.obj: LoRaMacClassB.c.obj
@@ -204,7 +204,7 @@ LoRaMacClassB.obj: LoRaMacClassB.c.obj
 
 # target to build an object file
 LoRaMacClassB.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.obj
 .PHONY : LoRaMacClassB.c.obj
 
 LoRaMacClassB.i: LoRaMacClassB.c.i
@@ -213,7 +213,7 @@ LoRaMacClassB.i: LoRaMacClassB.c.i
 
 # target to preprocess a source file
 LoRaMacClassB.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.i
 .PHONY : LoRaMacClassB.c.i
 
 LoRaMacClassB.s: LoRaMacClassB.c.s
@@ -222,7 +222,7 @@ LoRaMacClassB.s: LoRaMacClassB.c.s
 
 # target to generate assembly for a file
 LoRaMacClassB.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacClassB.c.s
 .PHONY : LoRaMacClassB.c.s
 
 LoRaMacCommands.obj: LoRaMacCommands.c.obj
@@ -231,7 +231,7 @@ LoRaMacCommands.obj: LoRaMacCommands.c.obj
 
 # target to build an object file
 LoRaMacCommands.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.obj
 .PHONY : LoRaMacCommands.c.obj
 
 LoRaMacCommands.i: LoRaMacCommands.c.i
@@ -240,7 +240,7 @@ LoRaMacCommands.i: LoRaMacCommands.c.i
 
 # target to preprocess a source file
 LoRaMacCommands.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.i
 .PHONY : LoRaMacCommands.c.i
 
 LoRaMacCommands.s: LoRaMacCommands.c.s
@@ -249,7 +249,7 @@ LoRaMacCommands.s: LoRaMacCommands.c.s
 
 # target to generate assembly for a file
 LoRaMacCommands.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCommands.c.s
 .PHONY : LoRaMacCommands.c.s
 
 LoRaMacConfirmQueue.obj: LoRaMacConfirmQueue.c.obj
@@ -258,7 +258,7 @@ LoRaMacConfirmQueue.obj: LoRaMacConfirmQueue.c.obj
 
 # target to build an object file
 LoRaMacConfirmQueue.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.obj
 .PHONY : LoRaMacConfirmQueue.c.obj
 
 LoRaMacConfirmQueue.i: LoRaMacConfirmQueue.c.i
@@ -267,7 +267,7 @@ LoRaMacConfirmQueue.i: LoRaMacConfirmQueue.c.i
 
 # target to preprocess a source file
 LoRaMacConfirmQueue.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.i
 .PHONY : LoRaMacConfirmQueue.c.i
 
 LoRaMacConfirmQueue.s: LoRaMacConfirmQueue.c.s
@@ -276,7 +276,7 @@ LoRaMacConfirmQueue.s: LoRaMacConfirmQueue.c.s
 
 # target to generate assembly for a file
 LoRaMacConfirmQueue.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacConfirmQueue.c.s
 .PHONY : LoRaMacConfirmQueue.c.s
 
 LoRaMacCrypto.obj: LoRaMacCrypto.c.obj
@@ -285,7 +285,7 @@ LoRaMacCrypto.obj: LoRaMacCrypto.c.obj
 
 # target to build an object file
 LoRaMacCrypto.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.obj
 .PHONY : LoRaMacCrypto.c.obj
 
 LoRaMacCrypto.i: LoRaMacCrypto.c.i
@@ -294,7 +294,7 @@ LoRaMacCrypto.i: LoRaMacCrypto.c.i
 
 # target to preprocess a source file
 LoRaMacCrypto.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.i
 .PHONY : LoRaMacCrypto.c.i
 
 LoRaMacCrypto.s: LoRaMacCrypto.c.s
@@ -303,7 +303,7 @@ LoRaMacCrypto.s: LoRaMacCrypto.c.s
 
 # target to generate assembly for a file
 LoRaMacCrypto.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacCrypto.c.s
 .PHONY : LoRaMacCrypto.c.s
 
 LoRaMacParser.obj: LoRaMacParser.c.obj
@@ -312,7 +312,7 @@ LoRaMacParser.obj: LoRaMacParser.c.obj
 
 # target to build an object file
 LoRaMacParser.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.obj
 .PHONY : LoRaMacParser.c.obj
 
 LoRaMacParser.i: LoRaMacParser.c.i
@@ -321,7 +321,7 @@ LoRaMacParser.i: LoRaMacParser.c.i
 
 # target to preprocess a source file
 LoRaMacParser.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.i
 .PHONY : LoRaMacParser.c.i
 
 LoRaMacParser.s: LoRaMacParser.c.s
@@ -330,7 +330,7 @@ LoRaMacParser.s: LoRaMacParser.c.s
 
 # target to generate assembly for a file
 LoRaMacParser.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacParser.c.s
 .PHONY : LoRaMacParser.c.s
 
 LoRaMacSerializer.obj: LoRaMacSerializer.c.obj
@@ -339,7 +339,7 @@ LoRaMacSerializer.obj: LoRaMacSerializer.c.obj
 
 # target to build an object file
 LoRaMacSerializer.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.obj
 .PHONY : LoRaMacSerializer.c.obj
 
 LoRaMacSerializer.i: LoRaMacSerializer.c.i
@@ -348,7 +348,7 @@ LoRaMacSerializer.i: LoRaMacSerializer.c.i
 
 # target to preprocess a source file
 LoRaMacSerializer.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.i
 .PHONY : LoRaMacSerializer.c.i
 
 LoRaMacSerializer.s: LoRaMacSerializer.c.s
@@ -357,7 +357,7 @@ LoRaMacSerializer.s: LoRaMacSerializer.c.s
 
 # target to generate assembly for a file
 LoRaMacSerializer.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/LoRaMacSerializer.c.s
 .PHONY : LoRaMacSerializer.c.s
 
 region/Region.obj: region/Region.c.obj
@@ -366,7 +366,7 @@ region/Region.obj: region/Region.c.obj
 
 # target to build an object file
 region/Region.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.obj
 .PHONY : region/Region.c.obj
 
 region/Region.i: region/Region.c.i
@@ -375,7 +375,7 @@ region/Region.i: region/Region.c.i
 
 # target to preprocess a source file
 region/Region.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.i
 .PHONY : region/Region.c.i
 
 region/Region.s: region/Region.c.s
@@ -384,7 +384,7 @@ region/Region.s: region/Region.c.s
 
 # target to generate assembly for a file
 region/Region.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/Region.c.s
 .PHONY : region/Region.c.s
 
 region/RegionAS923.obj: region/RegionAS923.c.obj
@@ -393,7 +393,7 @@ region/RegionAS923.obj: region/RegionAS923.c.obj
 
 # target to build an object file
 region/RegionAS923.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.obj
 .PHONY : region/RegionAS923.c.obj
 
 region/RegionAS923.i: region/RegionAS923.c.i
@@ -402,7 +402,7 @@ region/RegionAS923.i: region/RegionAS923.c.i
 
 # target to preprocess a source file
 region/RegionAS923.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.i
 .PHONY : region/RegionAS923.c.i
 
 region/RegionAS923.s: region/RegionAS923.c.s
@@ -411,7 +411,7 @@ region/RegionAS923.s: region/RegionAS923.c.s
 
 # target to generate assembly for a file
 region/RegionAS923.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAS923.c.s
 .PHONY : region/RegionAS923.c.s
 
 region/RegionAU915.obj: region/RegionAU915.c.obj
@@ -420,7 +420,7 @@ region/RegionAU915.obj: region/RegionAU915.c.obj
 
 # target to build an object file
 region/RegionAU915.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.obj
 .PHONY : region/RegionAU915.c.obj
 
 region/RegionAU915.i: region/RegionAU915.c.i
@@ -429,7 +429,7 @@ region/RegionAU915.i: region/RegionAU915.c.i
 
 # target to preprocess a source file
 region/RegionAU915.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.i
 .PHONY : region/RegionAU915.c.i
 
 region/RegionAU915.s: region/RegionAU915.c.s
@@ -438,7 +438,7 @@ region/RegionAU915.s: region/RegionAU915.c.s
 
 # target to generate assembly for a file
 region/RegionAU915.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionAU915.c.s
 .PHONY : region/RegionAU915.c.s
 
 region/RegionCN470.obj: region/RegionCN470.c.obj
@@ -447,7 +447,7 @@ region/RegionCN470.obj: region/RegionCN470.c.obj
 
 # target to build an object file
 region/RegionCN470.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.obj
 .PHONY : region/RegionCN470.c.obj
 
 region/RegionCN470.i: region/RegionCN470.c.i
@@ -456,7 +456,7 @@ region/RegionCN470.i: region/RegionCN470.c.i
 
 # target to preprocess a source file
 region/RegionCN470.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.i
 .PHONY : region/RegionCN470.c.i
 
 region/RegionCN470.s: region/RegionCN470.c.s
@@ -465,7 +465,7 @@ region/RegionCN470.s: region/RegionCN470.c.s
 
 # target to generate assembly for a file
 region/RegionCN470.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN470.c.s
 .PHONY : region/RegionCN470.c.s
 
 region/RegionCN779.obj: region/RegionCN779.c.obj
@@ -474,7 +474,7 @@ region/RegionCN779.obj: region/RegionCN779.c.obj
 
 # target to build an object file
 region/RegionCN779.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.obj
 .PHONY : region/RegionCN779.c.obj
 
 region/RegionCN779.i: region/RegionCN779.c.i
@@ -483,7 +483,7 @@ region/RegionCN779.i: region/RegionCN779.c.i
 
 # target to preprocess a source file
 region/RegionCN779.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.i
 .PHONY : region/RegionCN779.c.i
 
 region/RegionCN779.s: region/RegionCN779.c.s
@@ -492,7 +492,7 @@ region/RegionCN779.s: region/RegionCN779.c.s
 
 # target to generate assembly for a file
 region/RegionCN779.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCN779.c.s
 .PHONY : region/RegionCN779.c.s
 
 region/RegionCommon.obj: region/RegionCommon.c.obj
@@ -501,7 +501,7 @@ region/RegionCommon.obj: region/RegionCommon.c.obj
 
 # target to build an object file
 region/RegionCommon.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.obj
 .PHONY : region/RegionCommon.c.obj
 
 region/RegionCommon.i: region/RegionCommon.c.i
@@ -510,7 +510,7 @@ region/RegionCommon.i: region/RegionCommon.c.i
 
 # target to preprocess a source file
 region/RegionCommon.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.i
 .PHONY : region/RegionCommon.c.i
 
 region/RegionCommon.s: region/RegionCommon.c.s
@@ -519,7 +519,7 @@ region/RegionCommon.s: region/RegionCommon.c.s
 
 # target to generate assembly for a file
 region/RegionCommon.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionCommon.c.s
 .PHONY : region/RegionCommon.c.s
 
 region/RegionEU433.obj: region/RegionEU433.c.obj
@@ -528,7 +528,7 @@ region/RegionEU433.obj: region/RegionEU433.c.obj
 
 # target to build an object file
 region/RegionEU433.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.obj
 .PHONY : region/RegionEU433.c.obj
 
 region/RegionEU433.i: region/RegionEU433.c.i
@@ -537,7 +537,7 @@ region/RegionEU433.i: region/RegionEU433.c.i
 
 # target to preprocess a source file
 region/RegionEU433.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.i
 .PHONY : region/RegionEU433.c.i
 
 region/RegionEU433.s: region/RegionEU433.c.s
@@ -546,7 +546,7 @@ region/RegionEU433.s: region/RegionEU433.c.s
 
 # target to generate assembly for a file
 region/RegionEU433.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU433.c.s
 .PHONY : region/RegionEU433.c.s
 
 region/RegionEU868.obj: region/RegionEU868.c.obj
@@ -555,7 +555,7 @@ region/RegionEU868.obj: region/RegionEU868.c.obj
 
 # target to build an object file
 region/RegionEU868.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.obj
 .PHONY : region/RegionEU868.c.obj
 
 region/RegionEU868.i: region/RegionEU868.c.i
@@ -564,7 +564,7 @@ region/RegionEU868.i: region/RegionEU868.c.i
 
 # target to preprocess a source file
 region/RegionEU868.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.i
 .PHONY : region/RegionEU868.c.i
 
 region/RegionEU868.s: region/RegionEU868.c.s
@@ -573,7 +573,7 @@ region/RegionEU868.s: region/RegionEU868.c.s
 
 # target to generate assembly for a file
 region/RegionEU868.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionEU868.c.s
 .PHONY : region/RegionEU868.c.s
 
 region/RegionIN865.obj: region/RegionIN865.c.obj
@@ -582,7 +582,7 @@ region/RegionIN865.obj: region/RegionIN865.c.obj
 
 # target to build an object file
 region/RegionIN865.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.obj
 .PHONY : region/RegionIN865.c.obj
 
 region/RegionIN865.i: region/RegionIN865.c.i
@@ -591,7 +591,7 @@ region/RegionIN865.i: region/RegionIN865.c.i
 
 # target to preprocess a source file
 region/RegionIN865.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.i
 .PHONY : region/RegionIN865.c.i
 
 region/RegionIN865.s: region/RegionIN865.c.s
@@ -600,7 +600,7 @@ region/RegionIN865.s: region/RegionIN865.c.s
 
 # target to generate assembly for a file
 region/RegionIN865.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionIN865.c.s
 .PHONY : region/RegionIN865.c.s
 
 region/RegionKR920.obj: region/RegionKR920.c.obj
@@ -609,7 +609,7 @@ region/RegionKR920.obj: region/RegionKR920.c.obj
 
 # target to build an object file
 region/RegionKR920.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.obj
 .PHONY : region/RegionKR920.c.obj
 
 region/RegionKR920.i: region/RegionKR920.c.i
@@ -618,7 +618,7 @@ region/RegionKR920.i: region/RegionKR920.c.i
 
 # target to preprocess a source file
 region/RegionKR920.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.i
 .PHONY : region/RegionKR920.c.i
 
 region/RegionKR920.s: region/RegionKR920.c.s
@@ -627,7 +627,7 @@ region/RegionKR920.s: region/RegionKR920.c.s
 
 # target to generate assembly for a file
 region/RegionKR920.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionKR920.c.s
 .PHONY : region/RegionKR920.c.s
 
 region/RegionRU864.obj: region/RegionRU864.c.obj
@@ -636,7 +636,7 @@ region/RegionRU864.obj: region/RegionRU864.c.obj
 
 # target to build an object file
 region/RegionRU864.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.obj
 .PHONY : region/RegionRU864.c.obj
 
 region/RegionRU864.i: region/RegionRU864.c.i
@@ -645,7 +645,7 @@ region/RegionRU864.i: region/RegionRU864.c.i
 
 # target to preprocess a source file
 region/RegionRU864.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.i
 .PHONY : region/RegionRU864.c.i
 
 region/RegionRU864.s: region/RegionRU864.c.s
@@ -654,7 +654,7 @@ region/RegionRU864.s: region/RegionRU864.c.s
 
 # target to generate assembly for a file
 region/RegionRU864.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionRU864.c.s
 .PHONY : region/RegionRU864.c.s
 
 region/RegionUS915.obj: region/RegionUS915.c.obj
@@ -663,7 +663,7 @@ region/RegionUS915.obj: region/RegionUS915.c.obj
 
 # target to build an object file
 region/RegionUS915.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.obj
 .PHONY : region/RegionUS915.c.obj
 
 region/RegionUS915.i: region/RegionUS915.c.i
@@ -672,7 +672,7 @@ region/RegionUS915.i: region/RegionUS915.c.i
 
 # target to preprocess a source file
 region/RegionUS915.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.i
 .PHONY : region/RegionUS915.c.i
 
 region/RegionUS915.s: region/RegionUS915.c.s
@@ -681,7 +681,7 @@ region/RegionUS915.s: region/RegionUS915.c.s
 
 # target to generate assembly for a file
 region/RegionUS915.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/mac/CMakeFiles/mac.dir/build.make src/mac/CMakeFiles/mac.dir/region/RegionUS915.c.s
 .PHONY : region/RegionUS915.c.s
 
 # Help Target
@@ -764,6 +764,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
