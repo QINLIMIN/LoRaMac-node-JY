@@ -8,6 +8,10 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "LORAMAC_REGION_EU868;LORAMAC_REGION_US915;LORAMAC_REGION_CN779;LORAMAC_REGION_EU433;LORAMAC_REGION_AU915;LORAMAC_REGION_AS923;LORAMAC_REGION_CN470;LORAMAC_REGION_KR920;LORAMAC_REGION_IN865;LORAMAC_REGION_RU864"
 				}
 			],
 			"type" : "STRING",
@@ -235,7 +239,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Release"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -709,6 +713,10 @@
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
@@ -1279,11 +1287,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/cmake/toolchain-arm-none-eabi.cmake"
+			"type" : "STRING",
+			"value" : "cmake/toolchain-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1338,6 +1346,30 @@
 			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072"
 		},
 		{
+			"name" : "LoRaMac_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/LoRaMac"
+		},
+		{
+			"name" : "LoRaMac_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/LoRaMac"
+		},
+		{
 			"name" : "MBED_RADIO_SHIELD",
 			"properties" : 
 			[
@@ -1368,6 +1400,30 @@
 			],
 			"type" : "STRING",
 			"value" : "LORA"
+		},
+		{
+			"name" : "NucleoL073_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/NucleoL073"
+		},
+		{
+			"name" : "NucleoL073_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/NucleoL073"
 		},
 		{
 			"name" : "OPENOCD_BIN",
@@ -1620,6 +1676,10 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "classA;classB;classC;periodic-uplink-lpp;fuota-test-01"
 				}
 			],
 			"type" : "STRING",

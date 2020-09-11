@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node
+CMAKE_SOURCE_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node/build
+CMAKE_BINARY_DIR = /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node/build/src/apps/LoRaMac//CMakeFiles/progress.marks
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node/build/CMakeFiles 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/LoRaMac//CMakeFiles/progress.marks
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/clean
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,279 +116,90 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
-.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
+src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/rule:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/rule
+.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/rule
 
 # Convenience name for target.
-LoRaMac-periodic-uplink-lpp.hex: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/rule
+LoRaMac-classA.bin: src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/rule
 
-.PHONY : LoRaMac-periodic-uplink-lpp.hex
+.PHONY : LoRaMac-classA.bin
 
 # fast build rule for target.
-LoRaMac-periodic-uplink-lpp.hex/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.hex.dir/build
-.PHONY : LoRaMac-periodic-uplink-lpp.hex/fast
+LoRaMac-classA.bin/fast:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.bin.dir/build
+.PHONY : LoRaMac-classA.bin/fast
 
 # Convenience name for target.
-src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
-.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
+src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/rule:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/rule
+.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/rule
 
 # Convenience name for target.
-LoRaMac-periodic-uplink-lpp.bin: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/rule
+LoRaMac-classA.hex: src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/rule
 
-.PHONY : LoRaMac-periodic-uplink-lpp.bin
+.PHONY : LoRaMac-classA.hex
 
 # fast build rule for target.
-LoRaMac-periodic-uplink-lpp.bin/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.bin.dir/build
-.PHONY : LoRaMac-periodic-uplink-lpp.bin/fast
+LoRaMac-classA.hex/fast:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.hex.dir/build
+.PHONY : LoRaMac-classA.hex/fast
 
 # Convenience name for target.
-src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
-.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
+src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/rule:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/rule
+.PHONY : src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/rule
 
 # Convenience name for target.
-LoRaMac-periodic-uplink-lpp: src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/rule
+LoRaMac-classA: src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/rule
 
-.PHONY : LoRaMac-periodic-uplink-lpp
+.PHONY : LoRaMac-classA
 
 # fast build rule for target.
-LoRaMac-periodic-uplink-lpp/fast:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build
-.PHONY : LoRaMac-periodic-uplink-lpp/fast
+LoRaMac-classA/fast:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build
+.PHONY : LoRaMac-classA/fast
 
-common/CayenneLpp.obj: common/CayenneLpp.c.obj
+classA/NucleoL073/main.obj: classA/NucleoL073/main.c.obj
 
-.PHONY : common/CayenneLpp.obj
-
-# target to build an object file
-common/CayenneLpp.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.obj
-.PHONY : common/CayenneLpp.c.obj
-
-common/CayenneLpp.i: common/CayenneLpp.c.i
-
-.PHONY : common/CayenneLpp.i
-
-# target to preprocess a source file
-common/CayenneLpp.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.i
-.PHONY : common/CayenneLpp.c.i
-
-common/CayenneLpp.s: common/CayenneLpp.c.s
-
-.PHONY : common/CayenneLpp.s
-
-# target to generate assembly for a file
-common/CayenneLpp.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/CayenneLpp.c.s
-.PHONY : common/CayenneLpp.c.s
-
-common/LmHandler/LmHandler.obj: common/LmHandler/LmHandler.c.obj
-
-.PHONY : common/LmHandler/LmHandler.obj
+.PHONY : classA/NucleoL073/main.obj
 
 # target to build an object file
-common/LmHandler/LmHandler.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.obj
-.PHONY : common/LmHandler/LmHandler.c.obj
+classA/NucleoL073/main.c.obj:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/classA/NucleoL073/main.c.obj
+.PHONY : classA/NucleoL073/main.c.obj
 
-common/LmHandler/LmHandler.i: common/LmHandler/LmHandler.c.i
+classA/NucleoL073/main.i: classA/NucleoL073/main.c.i
 
-.PHONY : common/LmHandler/LmHandler.i
-
-# target to preprocess a source file
-common/LmHandler/LmHandler.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.i
-.PHONY : common/LmHandler/LmHandler.c.i
-
-common/LmHandler/LmHandler.s: common/LmHandler/LmHandler.c.s
-
-.PHONY : common/LmHandler/LmHandler.s
-
-# target to generate assembly for a file
-common/LmHandler/LmHandler.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/LmHandler.c.s
-.PHONY : common/LmHandler/LmHandler.c.s
-
-common/LmHandler/packages/FragDecoder.obj: common/LmHandler/packages/FragDecoder.c.obj
-
-.PHONY : common/LmHandler/packages/FragDecoder.obj
-
-# target to build an object file
-common/LmHandler/packages/FragDecoder.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.obj
-.PHONY : common/LmHandler/packages/FragDecoder.c.obj
-
-common/LmHandler/packages/FragDecoder.i: common/LmHandler/packages/FragDecoder.c.i
-
-.PHONY : common/LmHandler/packages/FragDecoder.i
+.PHONY : classA/NucleoL073/main.i
 
 # target to preprocess a source file
-common/LmHandler/packages/FragDecoder.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.i
-.PHONY : common/LmHandler/packages/FragDecoder.c.i
+classA/NucleoL073/main.c.i:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/classA/NucleoL073/main.c.i
+.PHONY : classA/NucleoL073/main.c.i
 
-common/LmHandler/packages/FragDecoder.s: common/LmHandler/packages/FragDecoder.c.s
+classA/NucleoL073/main.s: classA/NucleoL073/main.c.s
 
-.PHONY : common/LmHandler/packages/FragDecoder.s
-
-# target to generate assembly for a file
-common/LmHandler/packages/FragDecoder.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/FragDecoder.c.s
-.PHONY : common/LmHandler/packages/FragDecoder.c.s
-
-common/LmHandler/packages/LmhpClockSync.obj: common/LmHandler/packages/LmhpClockSync.c.obj
-
-.PHONY : common/LmHandler/packages/LmhpClockSync.obj
-
-# target to build an object file
-common/LmHandler/packages/LmhpClockSync.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.obj
-.PHONY : common/LmHandler/packages/LmhpClockSync.c.obj
-
-common/LmHandler/packages/LmhpClockSync.i: common/LmHandler/packages/LmhpClockSync.c.i
-
-.PHONY : common/LmHandler/packages/LmhpClockSync.i
-
-# target to preprocess a source file
-common/LmHandler/packages/LmhpClockSync.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.i
-.PHONY : common/LmHandler/packages/LmhpClockSync.c.i
-
-common/LmHandler/packages/LmhpClockSync.s: common/LmHandler/packages/LmhpClockSync.c.s
-
-.PHONY : common/LmHandler/packages/LmhpClockSync.s
+.PHONY : classA/NucleoL073/main.s
 
 # target to generate assembly for a file
-common/LmHandler/packages/LmhpClockSync.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpClockSync.c.s
-.PHONY : common/LmHandler/packages/LmhpClockSync.c.s
-
-common/LmHandler/packages/LmhpCompliance.obj: common/LmHandler/packages/LmhpCompliance.c.obj
-
-.PHONY : common/LmHandler/packages/LmhpCompliance.obj
-
-# target to build an object file
-common/LmHandler/packages/LmhpCompliance.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.obj
-.PHONY : common/LmHandler/packages/LmhpCompliance.c.obj
-
-common/LmHandler/packages/LmhpCompliance.i: common/LmHandler/packages/LmhpCompliance.c.i
-
-.PHONY : common/LmHandler/packages/LmhpCompliance.i
-
-# target to preprocess a source file
-common/LmHandler/packages/LmhpCompliance.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.i
-.PHONY : common/LmHandler/packages/LmhpCompliance.c.i
-
-common/LmHandler/packages/LmhpCompliance.s: common/LmHandler/packages/LmhpCompliance.c.s
-
-.PHONY : common/LmHandler/packages/LmhpCompliance.s
-
-# target to generate assembly for a file
-common/LmHandler/packages/LmhpCompliance.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpCompliance.c.s
-.PHONY : common/LmHandler/packages/LmhpCompliance.c.s
-
-common/LmHandler/packages/LmhpFragmentation.obj: common/LmHandler/packages/LmhpFragmentation.c.obj
-
-.PHONY : common/LmHandler/packages/LmhpFragmentation.obj
-
-# target to build an object file
-common/LmHandler/packages/LmhpFragmentation.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.obj
-.PHONY : common/LmHandler/packages/LmhpFragmentation.c.obj
-
-common/LmHandler/packages/LmhpFragmentation.i: common/LmHandler/packages/LmhpFragmentation.c.i
-
-.PHONY : common/LmHandler/packages/LmhpFragmentation.i
-
-# target to preprocess a source file
-common/LmHandler/packages/LmhpFragmentation.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.i
-.PHONY : common/LmHandler/packages/LmhpFragmentation.c.i
-
-common/LmHandler/packages/LmhpFragmentation.s: common/LmHandler/packages/LmhpFragmentation.c.s
-
-.PHONY : common/LmHandler/packages/LmhpFragmentation.s
-
-# target to generate assembly for a file
-common/LmHandler/packages/LmhpFragmentation.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpFragmentation.c.s
-.PHONY : common/LmHandler/packages/LmhpFragmentation.c.s
-
-common/LmHandler/packages/LmhpRemoteMcastSetup.obj: common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
-
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.obj
-
-# target to build an object file
-common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.obj
-
-common/LmHandler/packages/LmhpRemoteMcastSetup.i: common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
-
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.i
-
-# target to preprocess a source file
-common/LmHandler/packages/LmhpRemoteMcastSetup.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.i
-
-common/LmHandler/packages/LmhpRemoteMcastSetup.s: common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
-
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.s
-
-# target to generate assembly for a file
-common/LmHandler/packages/LmhpRemoteMcastSetup.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
-.PHONY : common/LmHandler/packages/LmhpRemoteMcastSetup.c.s
-
-common/LmHandlerMsgDisplay.obj: common/LmHandlerMsgDisplay.c.obj
-
-.PHONY : common/LmHandlerMsgDisplay.obj
-
-# target to build an object file
-common/LmHandlerMsgDisplay.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.obj
-.PHONY : common/LmHandlerMsgDisplay.c.obj
-
-common/LmHandlerMsgDisplay.i: common/LmHandlerMsgDisplay.c.i
-
-.PHONY : common/LmHandlerMsgDisplay.i
-
-# target to preprocess a source file
-common/LmHandlerMsgDisplay.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.i
-.PHONY : common/LmHandlerMsgDisplay.c.i
-
-common/LmHandlerMsgDisplay.s: common/LmHandlerMsgDisplay.c.s
-
-.PHONY : common/LmHandlerMsgDisplay.s
-
-# target to generate assembly for a file
-common/LmHandlerMsgDisplay.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/LmHandlerMsgDisplay.c.s
-.PHONY : common/LmHandlerMsgDisplay.c.s
+classA/NucleoL073/main.c.s:
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/classA/NucleoL073/main.c.s
+.PHONY : classA/NucleoL073/main.c.s
 
 common/NvmCtxMgmt.obj: common/NvmCtxMgmt.c.obj
 
@@ -396,7 +207,7 @@ common/NvmCtxMgmt.obj: common/NvmCtxMgmt.c.obj
 
 # target to build an object file
 common/NvmCtxMgmt.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.obj
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/common/NvmCtxMgmt.c.obj
 .PHONY : common/NvmCtxMgmt.c.obj
 
 common/NvmCtxMgmt.i: common/NvmCtxMgmt.c.i
@@ -405,7 +216,7 @@ common/NvmCtxMgmt.i: common/NvmCtxMgmt.c.i
 
 # target to preprocess a source file
 common/NvmCtxMgmt.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.i
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/common/NvmCtxMgmt.c.i
 .PHONY : common/NvmCtxMgmt.c.i
 
 common/NvmCtxMgmt.s: common/NvmCtxMgmt.c.s
@@ -414,35 +225,8 @@ common/NvmCtxMgmt.s: common/NvmCtxMgmt.c.s
 
 # target to generate assembly for a file
 common/NvmCtxMgmt.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/common/NvmCtxMgmt.c.s
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-classA.dir/common/NvmCtxMgmt.c.s
 .PHONY : common/NvmCtxMgmt.c.s
-
-periodic-uplink-lpp/NucleoL073/main.obj: periodic-uplink-lpp/NucleoL073/main.c.obj
-
-.PHONY : periodic-uplink-lpp/NucleoL073/main.obj
-
-# target to build an object file
-periodic-uplink-lpp/NucleoL073/main.c.obj:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/NucleoL073/main.c.obj
-.PHONY : periodic-uplink-lpp/NucleoL073/main.c.obj
-
-periodic-uplink-lpp/NucleoL073/main.i: periodic-uplink-lpp/NucleoL073/main.c.i
-
-.PHONY : periodic-uplink-lpp/NucleoL073/main.i
-
-# target to preprocess a source file
-periodic-uplink-lpp/NucleoL073/main.c.i:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/NucleoL073/main.c.i
-.PHONY : periodic-uplink-lpp/NucleoL073/main.c.i
-
-periodic-uplink-lpp/NucleoL073/main.s: periodic-uplink-lpp/NucleoL073/main.c.s
-
-.PHONY : periodic-uplink-lpp/NucleoL073/main.s
-
-# target to generate assembly for a file
-periodic-uplink-lpp/NucleoL073/main.c.s:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(MAKE) $(MAKESILENT) -f src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/build.make src/apps/LoRaMac/CMakeFiles/LoRaMac-periodic-uplink-lpp.dir/periodic-uplink-lpp/NucleoL073/main.c.s
-.PHONY : periodic-uplink-lpp/NucleoL073/main.c.s
 
 # Help Target
 help:
@@ -452,39 +236,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... LoRaMac-periodic-uplink-lpp.bin"
-	@echo "... LoRaMac-periodic-uplink-lpp.hex"
-	@echo "... LoRaMac-periodic-uplink-lpp"
-	@echo "... common/CayenneLpp.obj"
-	@echo "... common/CayenneLpp.i"
-	@echo "... common/CayenneLpp.s"
-	@echo "... common/LmHandler/LmHandler.obj"
-	@echo "... common/LmHandler/LmHandler.i"
-	@echo "... common/LmHandler/LmHandler.s"
-	@echo "... common/LmHandler/packages/FragDecoder.obj"
-	@echo "... common/LmHandler/packages/FragDecoder.i"
-	@echo "... common/LmHandler/packages/FragDecoder.s"
-	@echo "... common/LmHandler/packages/LmhpClockSync.obj"
-	@echo "... common/LmHandler/packages/LmhpClockSync.i"
-	@echo "... common/LmHandler/packages/LmhpClockSync.s"
-	@echo "... common/LmHandler/packages/LmhpCompliance.obj"
-	@echo "... common/LmHandler/packages/LmhpCompliance.i"
-	@echo "... common/LmHandler/packages/LmhpCompliance.s"
-	@echo "... common/LmHandler/packages/LmhpFragmentation.obj"
-	@echo "... common/LmHandler/packages/LmhpFragmentation.i"
-	@echo "... common/LmHandler/packages/LmhpFragmentation.s"
-	@echo "... common/LmHandler/packages/LmhpRemoteMcastSetup.obj"
-	@echo "... common/LmHandler/packages/LmhpRemoteMcastSetup.i"
-	@echo "... common/LmHandler/packages/LmhpRemoteMcastSetup.s"
-	@echo "... common/LmHandlerMsgDisplay.obj"
-	@echo "... common/LmHandlerMsgDisplay.i"
-	@echo "... common/LmHandlerMsgDisplay.s"
+	@echo "... LoRaMac-classA.bin"
+	@echo "... LoRaMac-classA.hex"
+	@echo "... LoRaMac-classA"
+	@echo "... classA/NucleoL073/main.obj"
+	@echo "... classA/NucleoL073/main.i"
+	@echo "... classA/NucleoL073/main.s"
 	@echo "... common/NvmCtxMgmt.obj"
 	@echo "... common/NvmCtxMgmt.i"
 	@echo "... common/NvmCtxMgmt.s"
-	@echo "... periodic-uplink-lpp/NucleoL073/main.obj"
-	@echo "... periodic-uplink-lpp/NucleoL073/main.i"
-	@echo "... periodic-uplink-lpp/NucleoL073/main.s"
 .PHONY : help
 
 
@@ -496,6 +256,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/jimmy/Documents/GitHub/LoRaMac-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

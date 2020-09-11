@@ -1,4 +1,4 @@
-file LoRaMac-periodic-uplink-lpp
+file LoRaMac-classA
 target extended localhost:4242
 monitor reset halt
 shell sleep 1

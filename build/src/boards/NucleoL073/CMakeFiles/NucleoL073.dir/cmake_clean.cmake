@@ -30,7 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NucleoL073.dir/lpm-board.c.obj"
   "CMakeFiles/NucleoL073.dir/rtc-board.c.obj"
   "CMakeFiles/NucleoL073.dir/spi-board.c.obj"
-  "CMakeFiles/NucleoL073.dir/sx1276mb1las-board.c.obj"
+  "CMakeFiles/NucleoL073.dir/sx1261mbxbas-board.c.obj"
   "CMakeFiles/NucleoL073.dir/uart-board.c.obj"
 )
 

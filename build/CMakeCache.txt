@@ -47,7 +47,7 @@ CMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -195,8 +195,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/usr/local/bin/arm-none-eabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/cmake/toolchain-arm-none-eabi.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:STRING=cmake/toolchain-arm-none-eabi.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -210,11 +210,23 @@ GC7818-F072_BINARY_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/buil
 //Value Computed by CMake
 GC7818-F072_SOURCE_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/GC7818-F072
 
+//Value Computed by CMake
+LoRaMac_BINARY_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/apps/LoRaMac
+
+//Value Computed by CMake
+LoRaMac_SOURCE_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/apps/LoRaMac
+
 //No help, variable specified on the command line.
 MBED_RADIO_SHIELD:STRING=SX1276MB1LAS
 
 //No help, variable specified on the command line.
 MODULATION:STRING=LORA
+
+//Value Computed by CMake
+NucleoL073_BINARY_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/build/src/boards/NucleoL073
+
+//Value Computed by CMake
+NucleoL073_SOURCE_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/boards/NucleoL073
 
 //OpenOCD executable
 OPENOCD_BIN:STRING=/usr/local/bin/openocd
@@ -332,6 +344,8 @@ system_SOURCE_DIR:STATIC=/Users/jimmy/Documents/GitHub/LoRaMac-node-JY/src/syste
 # INTERNAL cache entries
 ########################
 
+//STRINGS property for variable: ACTIVE_REGION
+ACTIVE_REGION-STRINGS:INTERNAL=LORAMAC_REGION_EU868;LORAMAC_REGION_US915;LORAMAC_REGION_CN779;LORAMAC_REGION_EU433;LORAMAC_REGION_AU915;LORAMAC_REGION_AS923;LORAMAC_REGION_CN470;LORAMAC_REGION_KR920;LORAMAC_REGION_IN865;LORAMAC_REGION_RU864
 //STRINGS property for variable: APPLICATION
 APPLICATION-STRINGS:INTERNAL=LoRaMac;ping-pong;rx-sensi;tx-cw
 //STRINGS property for variable: BOARD
@@ -445,6 +459,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE:INTERNAL=
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
@@ -538,4 +554,6 @@ RADIO:INTERNAL=sx1276
 REGION_AS923_DEFAULT_CHANNEL_PLAN-STRINGS:INTERNAL=CHANNEL_PLAN_GROUP_AS923_1,;CHANNEL_PLAN_GROUP_AS923_2,;CHANNEL_PLAN_GROUP_AS923_3,;CHANNEL_PLAN_GROUP_AS923_1_JP
 //STRINGS property for variable: SECURE_ELEMENT
 SECURE_ELEMENT-STRINGS:INTERNAL=SOFT_SE;LR1110_SE
+//STRINGS property for variable: SUB_PROJECT
+SUB_PROJECT-STRINGS:INTERNAL=classA;classB;classC;periodic-uplink-lpp;fuota-test-01
 
