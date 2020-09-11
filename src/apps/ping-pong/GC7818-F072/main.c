@@ -142,6 +142,8 @@ typedef enum
 
 #define BUFFER_SIZE                                 20 // Define the payload size here
 
+#define TIMER_LED_ON_BOARD_VALUE                    100
+
 const uint8_t PingMsg[] = "PINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPINGPING";
 const uint8_t PongMsg[] = "PONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONGPONG";
 
@@ -159,11 +161,21 @@ int8_t SnrValue = 0;
 static RadioEvents_t RadioEvents;
 
 /*!
+ * Timer to handle the state of LedOnBoard
+ */
+static TimerEvent_t LedOnBoardTimer;
+
+/*!
  * LED GPIO pins objects
  */
 extern Gpio_t Led1;
 extern Gpio_t Led2;
 extern Gpio_t LedOnBoard;
+
+/*!
+ * the status of receive
+ */
+uint16_t sumTimerValue = 0;
 
 /*!
  * \brief Function to be executed on Radio Tx Done event
@@ -190,6 +202,11 @@ void OnRxTimeout( void );
  */
 void OnRxError( void );
 
+/*!
+ * \brief Function executed on Led On Board Timeout event
+ */
+static void OnLedOnBoardTimerEvent( void* context );
+
 /**
  * Main application entry point.
  */
@@ -212,6 +229,13 @@ int main( void )
     Radio.Init( &RadioEvents );
 
     Radio.SetChannel( RF_FREQUENCY );
+
+    // Jimmy begin
+    // Timer initialization
+    TimerInit( &LedOnBoardTimer, OnLedOnBoardTimerEvent );
+    TimerSetValue( &LedOnBoardTimer, TIMER_LED_ON_BOARD_VALUE );
+    TimerStart( &LedOnBoardTimer );
+    // Jimmy end
 
 #if defined( USE_MODEM_LORA )
 
@@ -271,7 +295,7 @@ int main( void )
                     {
                         // Indicates on a LED that the received frame is a PONG
                         GpioToggle( &Led2 );
-                        print(Buffer);
+                        //print(Buffer);
 
                         // Send the next PING frame
                         memcpy( Buffer, PingMsg, BUFFER_SIZE );
@@ -283,7 +307,7 @@ int main( void )
                     { // A master already exists then become a slave
                         isMaster = false;
                         GpioToggle( &Led2 ); // Set LED off
-                        print(Buffer);
+                        //print(Buffer);
                         // 随机产生超时时间
                         Radio.Rx( RX_TIMEOUT_VALUE + randr(0,MAX_RNADOM)*1000 );
                     }
@@ -303,7 +327,7 @@ int main( void )
                     {
                         // Indicates on a LED that the received frame is a PING
                         GpioToggle( &Led2 );
-                        print(Buffer);
+                        //print(Buffer);
 
                         // Send the reply to the PONG string
                         memcpy( Buffer, PongMsg, BUFFER_SIZE );
@@ -332,7 +356,7 @@ int main( void )
             break;
         case RX_TIMEOUT:
         case RX_ERROR:
-            GpioToggle(&LedOnBoard);
+            //GpioToggle(&LedOnBoard);
             if( isMaster == true )
             {
                 // Send the next PING frame
@@ -383,6 +407,9 @@ void OnRxDone( uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr )
     RssiValue = rssi;
     SnrValue = snr;
     State = RX;
+
+    sumTimerValue = 0;
+    TimerStart( &LedOnBoardTimer );
 }
 
 void OnTxTimeout( void )
@@ -401,4 +428,49 @@ void OnRxError( void )
 {
     Radio.Sleep( );
     State = RX_ERROR;
+}
+
+/*!
+ * \brief Function executed on Led On Board Timeout event
+ */
+static void OnLedOnBoardTimerEvent( void* context )
+{
+    uint16_t timerValue = 0;
+    static bool ONOFF = true;
+    
+    // stop this timer loop
+    TimerStop( &LedOnBoardTimer );
+
+    if(ONOFF) {
+        ONOFF = false;
+        // 如果接收信号强度为负值，则用负值绝对值作为指示灯灭灯时长。
+        // 如果接收信号值强度为正值，说明信号值很强，灭灯时长为0.
+        if(RssiValue < 0) {
+            timerValue = ~(RssiValue - 1);      // 将接收信号强度dBm转换为正值
+            timerValue = timerValue*10;
+        }
+        else timerValue = 0;
+        // turn off
+        GpioWrite(&LedOnBoard, 0);
+    }
+    else
+    {
+        ONOFF = true;
+        timerValue = TIMER_LED_ON_BOARD_VALUE;
+        // turn on
+        GpioWrite(&LedOnBoard, 1);
+    }
+    
+    // start up next timer loop
+    TimerSetValue( &LedOnBoardTimer, timerValue );
+    TimerStart( &LedOnBoardTimer );
+
+    sumTimerValue += timerValue;
+    if(sumTimerValue > 3000){
+        sumTimerValue = 0;
+        // turn off
+        GpioWrite(&LedOnBoard, 0);
+        // stop this timer loop
+        TimerStop( &LedOnBoardTimer );
+    }
 }
